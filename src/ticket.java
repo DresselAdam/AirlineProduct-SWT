@@ -619,6 +619,7 @@ public class ticket extends javax.swing.JInternalFrame {
          String price = txtprice.getText();
          String seats = txtseats.getValue().toString();
         DateFormat da = new SimpleDateFormat("yyyy-MM-dd");
+        Date txtdate = new Date();
         String date = da.format(txtdate.getDate());
 
       

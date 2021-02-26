@@ -1,6 +1,5 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.4
--- https://www.phpmyadmin.net/
+-- version 4.7.4-- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
 -- Server version: 10.1.29-MariaDB

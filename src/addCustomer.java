@@ -15,6 +15,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.imageio.ImageIO;
@@ -442,6 +443,7 @@ public class addCustomer extends javax.swing.JInternalFrame {
          String address = txtaddress.getText();
         
         DateFormat da = new SimpleDateFormat("yyyy-MM-dd");
+        Date txtdob = new Date();
         String date = da.format(txtdob.getDate());
         String Gender;
         
