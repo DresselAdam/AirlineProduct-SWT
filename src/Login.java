@@ -43,6 +43,9 @@ public class Login extends javax.swing.JFrame {
         txtuser = new javax.swing.JTextField();
         txtpass = new javax.swing.JPasswordField();
 
+        txtuser.setName("txtuser");
+        txtpass.setName("txtpass");
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Login", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 18))); // NOI18N
@@ -123,11 +126,11 @@ public class Login extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        
+
         String username = txtuser.getText();
         String password = txtpass.getText();
-        
-        
+
+
         if(username.isEmpty() ||  password.isEmpty())
         {
             JOptionPane.showMessageDialog(this, "UserName or Password Blank");
@@ -140,19 +143,19 @@ public class Login extends javax.swing.JFrame {
                 pst = con.prepareStatement("select * from user where username = ? and password = ?");
                  pst.setString(1, username);
                  pst.setString(2, password);
-                 
+
                  ResultSet rs;
                  rs = pst.executeQuery();
-                 
-                 
+
+
                  if(rs.next())
                  {
                      Main m = new Main();
                      this.hide();
                      m.setVisible(true);
-                     
-                     
-                     
+
+
+
                  }
                  else
                  {
@@ -160,33 +163,31 @@ public class Login extends javax.swing.JFrame {
                        txtuser.setText("");
                        txtpass.setText("");
                        txtuser.requestFocus();
-                       
-                     
+
+
                  }
-                 
-                 
-                 
-                  
-                  
+
+
+
+
+
             } catch (ClassNotFoundException ex) {
                 Logger.getLogger(Login.class.getName()).log(Level.SEVERE, null, ex);
             } catch (SQLException ex) {
                 Logger.getLogger(Login.class.getName()).log(Level.SEVERE, null, ex);
             }
-           
-            
-            
-            
-            
+
+
+
+
+
         }
-     
-        
-        
-        
-        
-        
-        
+
+
+
+
     }//GEN-LAST:event_jButton1ActionPerformed
+
 
     /**
      * @param args the command line arguments
@@ -197,6 +198,7 @@ public class Login extends javax.swing.JFrame {
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
          * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
          */
+
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
@@ -222,6 +224,7 @@ public class Login extends javax.swing.JFrame {
             }
         });
     }
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
