@@ -335,7 +335,7 @@ public class addCustomer extends javax.swing.JInternalFrame {
     public void autoID()
     {
         try {
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
             con = DriverManager.getConnection("jdbc:mysql://localhost/airline","root","");
             Statement s = con.createStatement();
             ResultSet rs = s.executeQuery("select MAX(id) from customer");
@@ -453,13 +453,13 @@ public class addCustomer extends javax.swing.JInternalFrame {
         }
         else
         {
-            Gender = "FeMale";
+            Gender = "Female";
         }
         
          String contact = txtcontact.getText();
          
         try {
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
             con = DriverManager.getConnection("jdbc:mysql://localhost/airline","root","");
             pst = con.prepareStatement("insert into customer(id,firstname,lastname,nic,passport,address,dob,gender,contact,photo)values(?,?,?,?,?,?,?,?,?,?)");
             
@@ -476,7 +476,7 @@ public class addCustomer extends javax.swing.JInternalFrame {
             pst.executeUpdate();
             
             
-            JOptionPane.showMessageDialog(null,"Registation Createdd.........");
+            JOptionPane.showMessageDialog(null,"Registration Created.........");
             
             
         } catch (ClassNotFoundException ex) {

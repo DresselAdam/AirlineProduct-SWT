@@ -178,7 +178,7 @@ public class userCreation extends javax.swing.JInternalFrame {
          
       
         try {
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
              con = DriverManager.getConnection("jdbc:mysql://localhost/airline","root","");
             pst = con.prepareStatement("insert into user(id,firstname,lastname,username,password)values(?,?,?,?,?)");
             
@@ -192,7 +192,7 @@ public class userCreation extends javax.swing.JInternalFrame {
             pst.executeUpdate();
             
             
-            JOptionPane.showMessageDialog(null,"User Createdd.........");
+            JOptionPane.showMessageDialog(null,"User Created.........");
         } catch (ClassNotFoundException ex) {
             Logger.getLogger(addflight.class.getName()).log(Level.SEVERE, null, ex);
         } catch (SQLException ex) {
@@ -226,7 +226,7 @@ public class userCreation extends javax.swing.JInternalFrame {
      public void autoID()
     {
         try {
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
             con = DriverManager.getConnection("jdbc:mysql://localhost/airline","root","");
             Statement s = con.createStatement();
             ResultSet rs = s.executeQuery("select MAX(id) from user");

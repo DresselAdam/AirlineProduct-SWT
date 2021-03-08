@@ -1,4 +1,8 @@
 
+import org.junit.Assert;
+import org.junit.ComparisonFailure;
+import org.junit.Test;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -229,10 +233,10 @@ public class addflight extends javax.swing.JInternalFrame {
      public void autoID()
     {
         try {
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
             con = DriverManager.getConnection("jdbc:mysql://localhost/airline","root","");
-            Statement s = con.createStatement();
-            ResultSet rs = s.executeQuery("select MAX(id) from flight");
+            Statement stmt = con.createStatement();
+            ResultSet rs = stmt.executeQuery("select MAX(id) from flight");
             rs.next();
             rs.getString("MAX(id)");
             if(rs.getString("MAX(id)") == null)
@@ -247,30 +251,15 @@ public class addflight extends javax.swing.JInternalFrame {
                 
                 
             }
-            
-            
-            
+
         } catch (ClassNotFoundException ex) {
             Logger.getLogger(addCustomer.class.getName()).log(Level.SEVERE, null, ex);
         } catch (SQLException ex) {
             Logger.getLogger(addCustomer.class.getName()).log(Level.SEVERE, null, ex);
         }
-    
-    
-    
+
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
         
@@ -287,11 +276,9 @@ public class addflight extends javax.swing.JInternalFrame {
          String departtime = txtdtime.getText();
          String arrtime = txtarrtime.getText();
          String flightcharge = txtflightcharge.getText();
-         
-         
-      
+
         try {
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
              con = DriverManager.getConnection("jdbc:mysql://localhost/airline","root","");
             pst = con.prepareStatement("insert into flight(id,flightname,source,depart,date,deptime,arrtime,flightcharge)values(?,?,?,?,?,?,?,?)");
             
@@ -306,19 +293,15 @@ public class addflight extends javax.swing.JInternalFrame {
            
             pst.executeUpdate();
             
-            
-            JOptionPane.showMessageDialog(null,"Flight Createdd.........");
+            verifyNewFlight(id, flightname);
+
+            JOptionPane.showMessageDialog(null,"Flight Created.........");
         } catch (ClassNotFoundException ex) {
             Logger.getLogger(addflight.class.getName()).log(Level.SEVERE, null, ex);
         } catch (SQLException ex) {
             Logger.getLogger(addflight.class.getName()).log(Level.SEVERE, null, ex);
         }
-           
-            
-            
-        
-        
-        
+
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
@@ -327,6 +310,26 @@ public class addflight extends javax.swing.JInternalFrame {
         this.hide();
     }//GEN-LAST:event_jButton2ActionPerformed
 
+    @Test
+    public void verifyNewFlight(String id, String flightName) {
+
+        try {
+            Statement testStmt = con.createStatement();
+            ResultSet rs = testStmt.executeQuery("select id from flight where flightname = '"+flightName+"'");
+            rs.next();
+            String foundId = rs.getString(1);
+            System.out.println(id);
+            System.out.println(foundId);
+            Assert.assertEquals(id, foundId); // Compares flight id before and after adding flight to the database
+            // Assert.assertEquals(id, "negative"); // Always results in comparison failure - used for testing
+        } catch (SQLException ex) {
+            ex.printStackTrace();
+        } catch (ComparisonFailure cf) {
+            System.out.println("ERROR - Flight was not added to the database.");
+        }
+
+        return;
+    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
