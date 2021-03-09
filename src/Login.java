@@ -154,8 +154,6 @@ public class Login extends javax.swing.JFrame {
                      this.hide();
                      m.setVisible(true);
 
-
-
                  }
                  else
                  {
