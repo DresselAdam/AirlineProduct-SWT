@@ -1,6 +1,3 @@
-
-import static org.junit.jupiter.api.Assertions.*;
-
 import org.testng.annotations.Test;
 
 import javax.swing.*;
@@ -8,8 +5,9 @@ import java.sql.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class LoginTest {
+import static org.junit.jupiter.api.Assertions.*;
 
+class LoginTestTwo {
     @Test
     void jButton1ActionPerformed() {
         Connection con;
