@@ -1,57 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf0d773b-a613-4c5a-9018-e3fb8da7ac09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AirlineProduct-SWT.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoginTestTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9c340f08-4eea-4546-ba04-edc2576e64f9/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/google-java-format.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SWT-AirlineProduct/Login$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SWT-AirlineProduct/Main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SWT-AirlineProduct/Main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SWT-AirlineProduct/Main$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SWT-AirlineProduct/Main$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SWT-AirlineProduct/Main$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SWT-AirlineProduct/Main$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SWT-AirlineProduct/Main$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SWT-AirlineProduct/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SWT-AirlineProduct/TestUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SWT-AirlineProduct/addCustomer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SWT-AirlineProduct/addCustomer$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SWT-AirlineProduct/addCustomer$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SWT-AirlineProduct/addCustomer$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SWT-AirlineProduct/addCustomer$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SWT-AirlineProduct/addCustomer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SWT-AirlineProduct/searchCustomer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SWT-AirlineProduct/searchCustomer$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SWT-AirlineProduct/searchCustomer$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SWT-AirlineProduct/searchCustomer$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SWT-AirlineProduct/searchCustomer$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SWT-AirlineProduct/searchCustomer$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SWT-AirlineProduct/searchCustomer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SWT-AirlineProduct/ticket$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SWT-AirlineProduct/ticket$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SWT-AirlineProduct/ticket$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SWT-AirlineProduct/ticket$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SWT-AirlineProduct/ticket$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SWT-AirlineProduct/ticket$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SWT-AirlineProduct/ticket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SWT-AirlineProduct/ticketreport$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SWT-AirlineProduct/ticketreport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SWT-AirlineProduct/userCreation$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SWT-AirlineProduct/userCreation$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SWT-AirlineProduct/userCreation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="bf0d773b-a613-4c5a-9018-e3fb8da7ac09" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -225,6 +175,14 @@
       <workItem from="1615221481981" duration="9832000" />
       <workItem from="1615262677978" duration="4096000" />
     </task>
+    <task id="LOCAL-00001" summary="LoginTest 2 was made pog">
+      <created>1615271445925</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615271445925</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,5 +198,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="LoginTest 2 was made pog" />
+    <option name="LAST_COMMIT_MESSAGE" value="LoginTest 2 was made pog" />
   </component>
 </project>
