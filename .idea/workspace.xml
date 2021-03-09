@@ -84,14 +84,14 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.addflightTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="SWT-AirlineProduct" />
@@ -110,10 +110,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="addflightTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SWT-AirlineProduct" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoginTest" />
+      <option name="MAIN_CLASS_NAME" value="addflightTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -154,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.addflightTest" />
+        <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="TestNG.LoginTest.jButton1ActionPerformed" />
-        <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="JUnit.addflight.verifyNewFlight" />
-        <item itemvalue="JUnit.LoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -202,11 +202,15 @@
       <workItem from="1615082457131" duration="1410000" />
       <workItem from="1615172658771" duration="6804000" />
       <workItem from="1615221481981" duration="9832000" />
-      <workItem from="1615262677978" duration="4096000" />
+      <workItem from="1615262677978" duration="6731000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SWT_AirlineProduct$LoginTest.ic" NAME="LoginTest Coverage Results" MODIFIED="1615271630307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/SWT_AirlineProduct$addflightTest.ic" NAME="addflightTest Coverage Results" MODIFIED="1615272580173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
