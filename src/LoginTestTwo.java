@@ -1,3 +1,6 @@
+
+import static org.junit.jupiter.api.Assertions.*;
+
 import org.testng.annotations.Test;
 
 import javax.swing.*;
@@ -5,9 +8,7 @@ import java.sql.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-class LoginTestTwo {
+public class LoginTestTwo {
     @Test
     void jButton1ActionPerformed() {
         Connection con;
@@ -22,7 +23,7 @@ class LoginTestTwo {
 
         userTest = (JTextField) TestUtils.getChildNamed(loginTest, "txtuser");
         passTest = (JPasswordField) TestUtils.getChildNamed(loginTest, "txtpass");
-        userTest.setText("john");
+        userTest.setText("joHn");
         passTest.setText("123");
 
         String username =  userTest.getText();
