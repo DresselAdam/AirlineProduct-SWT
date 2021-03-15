@@ -10,6 +10,10 @@
           <option name="url" value="http://github.com" />
           <option name="userName" value="Bird-sly" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/mattdo98/val-a-project.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\Brendan\IdeaProjects" />
