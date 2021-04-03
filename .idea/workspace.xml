@@ -91,7 +91,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.addflightTest">
+  <component name="RunManager" selected="TestNG.LoginTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="SWT-AirlineProduct" />
@@ -99,13 +99,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,9 +133,19 @@
     </configuration>
     <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SWT-AirlineProduct" />
+      <useClassPathOnly />
+      <extension name="coverage" sample_coverage="false" />
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LoginTest" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -152,12 +164,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.addflight.verifyNewFlight" />
+      <item itemvalue="JUnit.addflightTest" />
+      <item itemvalue="TestNG.LoginTest" />
+      <item itemvalue="TestNG.LoginTest.jButton1ActionPerformed" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.addflightTest" />
         <item itemvalue="TestNG.LoginTest" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="TestNG.LoginTest.jButton1ActionPerformed" />
+        <item itemvalue="JUnit.addflightTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.addflight.verifyNewFlight" />
       </list>
     </recent_temporary>
@@ -202,7 +221,8 @@
       <workItem from="1615082457131" duration="1410000" />
       <workItem from="1615172658771" duration="6804000" />
       <workItem from="1615221481981" duration="9832000" />
-      <workItem from="1615262677978" duration="6731000" />
+      <workItem from="1615262677978" duration="7462000" />
+      <workItem from="1617488358130" duration="2826000" />
     </task>
     <servers />
   </component>
@@ -210,7 +230,7 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/SWT_AirlineProduct$LoginTest.ic" NAME="LoginTest Coverage Results" MODIFIED="1615271630307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/SWT_AirlineProduct$addflightTest.ic" NAME="addflightTest Coverage Results" MODIFIED="1615272580173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/SWT_AirlineProduct$LoginTest.ic" NAME="LoginTest Coverage Results" MODIFIED="1617491578011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/SWT_AirlineProduct$addflightTest.ic" NAME="addflightTest Coverage Results" MODIFIED="1615272629226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
