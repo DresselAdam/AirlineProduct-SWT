@@ -1,7 +1,7 @@
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import org.testng.annotations.Test;
+import org.junit.Test;
 
 import javax.swing.*;
 import java.sql.*;
@@ -11,7 +11,7 @@ import java.util.logging.Logger;
 public class LoginTest {
 
     @Test
-    void jButton1ActionPerformed() {
+    public void jButton1ActionPerformed() {
         Connection con;
         PreparedStatement pst;
 
@@ -27,7 +27,7 @@ public class LoginTest {
         userTest.setText("john");
         passTest.setText("123");
 
-        String username =  userTest.getText();
+        String username = userTest.getText();
         String password = passTest.getText();
 
         try {
