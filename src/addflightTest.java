@@ -57,8 +57,11 @@ public class addflightTest {
             String foundId = rs.getString(1);
             System.out.println(foundId);
             System.out.println(idInsert);
-            Assert.assertEquals("testID", foundId); // Compares flight id before and after adding flight to the database
+            Assert.assertEquals("testID", foundId);
+            // Compares flight id before and after adding flight to the database
             // Assert.assertEquals(id, "negative"); // Always results in comparison failure - used for testing
+            pst = con.prepareStatement("DELETE FROM flight WHERE id='testID'");
+            pst.executeUpdate();
         } catch (SQLException ex) {
             ex.printStackTrace();
         }
