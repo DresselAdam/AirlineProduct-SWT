@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf0d773b-a613-4c5a-9018-e3fb8da7ac09" name="Default Changelist" comment="">
+    <list default="true" id="bf0d773b-a613-4c5a-9018-e3fb8da7ac09" name="Default Changelist" comment="addflighttest added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +77,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -164,7 +164,7 @@
       <workItem from="1615172658771" duration="6804000" />
       <workItem from="1615221481981" duration="9832000" />
       <workItem from="1615262677978" duration="4096000" />
-      <workItem from="1617655166906" duration="16247000" />
+      <workItem from="1617655166906" duration="19111000" />
     </task>
     <task id="LOCAL-00001" summary="LoginTest 2 was made pog">
       <created>1615271445925</created>
@@ -201,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617686253991</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="addflighttest added">
+      <created>1617687211168</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1617687211168</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,10 +237,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="808" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617655180526" />
-    <state x="557" y="115" key="CommitChangelistDialog2" timestamp="1617686253505">
+    <state x="557" y="115" key="CommitChangelistDialog2" timestamp="1617691869912">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="557" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1617686253505" />
+    <state x="557" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1617691869912" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1617691836842">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617691836842" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1617658216512">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -254,18 +265,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1921" height="286" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617675924570" />
-    <state x="440" y="95" key="SettingsEditor" timestamp="1617686961999">
+    <state x="440" y="95" key="SettingsEditor" timestamp="1617691682422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1617686961999" />
-    <state x="552" y="242" key="Vcs.Push.Dialog.v2" timestamp="1617686256547">
+    <state x="440" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1617691682422" />
+    <state x="552" y="242" key="Vcs.Push.Dialog.v2" timestamp="1617692117371">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617686256547" />
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1617685797853">
+    <state x="552" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617692117371" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1617691712846">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617685797853" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617691712846" />
+    <state x="718" y="234" key="git4idea.branch.GitSmartOperationDialog" timestamp="1617691008518">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="718" y="234" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617691008518" />
+    <state x="730" y="312" key="git4idea.merge.GitMergeDialog" timestamp="1617691929686">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="730" y="312" key="git4idea.merge.GitMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617691929686" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AirlineProduct_SWT$LoginTest__1_.ic" NAME="LoginTest (1) Coverage Results" MODIFIED="1615271694126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
