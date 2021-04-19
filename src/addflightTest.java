@@ -1,12 +1,4 @@
 import org.junit.Assert;
-<<<<<<< HEAD
-import org.junit.ComparisonFailure;
-import org.junit.Test;
-
-import java.sql.*;
-
-import static org.junit.jupiter.api.Assertions.*;
-=======
 import org.junit.Test;
 
 import javax.swing.*;
@@ -15,41 +7,10 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
->>>>>>> ab937b61eec31b9713ae00280ccd93f74e624753
 
 public class addflightTest {
 
     @Test
-<<<<<<< HEAD
-    public void autoID() {
-    Connection con;
-
-        try {
-            String id = "";
-            String flightName = "";
-            Class.forName("com.mysql.cj.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost/airline","root","");
-            Statement testStmt = con.createStatement();
-            ResultSet rs = testStmt.executeQuery("select id from flight where flightname = '"+flightName+"'");
-            rs.next();
-            String foundId = rs.getString(1);
-            System.out.println(id);
-            System.out.println(foundId);
-            Assert.assertEquals(id, foundId); // Compares flight id before and after adding flight to the database
-            // Assert.assertEquals(id, "negative"); // Always results in comparison failure - used for testing
-        } catch (SQLException ex) {
-            ex.printStackTrace();
-        } catch (ComparisonFailure cf) {
-            System.out.println("ERROR - Flight was not added to the database.");
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        }
-
-        return;
-    }
-
-}
-=======
     public void jButton1ActionPerformed() {
         Connection con = null;
         PreparedStatement pst;
@@ -108,4 +69,3 @@ public class addflightTest {
     }
 
 }
->>>>>>> ab937b61eec31b9713ae00280ccd93f74e624753
