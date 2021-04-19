@@ -39,7 +39,12 @@ public class LoginTest {
 
             ResultSet rs;
             rs = pst.executeQuery();
-            assertTrue(rs.next());
+            Main m = new Main();
+            if(rs.next()){
+                m.setVisible(true);
+            }
+
+            assertTrue(m.isVisible());
 
         }catch (ClassNotFoundException ex) {
             Logger.getLogger(Login.class.getName()).log(Level.SEVERE, null, ex);
