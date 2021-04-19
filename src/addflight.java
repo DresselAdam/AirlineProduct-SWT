@@ -30,6 +30,8 @@ public class addflight extends javax.swing.JInternalFrame {
     public addflight() {
         initComponents();
         autoID();
+        txtflightid.setName("txtflightid");
+        txtflightname.setName("txtflightname");
     }
     
      Connection con;
@@ -248,10 +250,7 @@ public class addflight extends javax.swing.JInternalFrame {
                 long id = Long.parseLong(rs.getString("MAX(id)").substring(2,rs.getString("MAX(id)").length()));
                 id++;
                  txtflightid.setText("FO" + String.format("%03d", id));
-                
-                
             }
-
         } catch (ClassNotFoundException ex) {
             Logger.getLogger(addCustomer.class.getName()).log(Level.SEVERE, null, ex);
         } catch (SQLException ex) {
@@ -293,6 +292,10 @@ public class addflight extends javax.swing.JInternalFrame {
            
             pst.executeUpdate();
             
+<<<<<<< HEAD
+=======
+//            verifyNewFlight(id, flightname);
+>>>>>>> ab937b61eec31b9713ae00280ccd93f74e624753
 
             JOptionPane.showMessageDialog(null,"Flight Created.........");
         } catch (ClassNotFoundException ex) {
@@ -309,7 +312,29 @@ public class addflight extends javax.swing.JInternalFrame {
         this.hide();
     }//GEN-LAST:event_jButton2ActionPerformed
 
+<<<<<<< HEAD
 
+=======
+//    @Test
+//    public void verifyNewFlight(String id, String flightName) {
+//
+//        try {
+//            Statement testStmt = con.createStatement();
+//            ResultSet rs = testStmt.executeQuery("select id from flight where flightname = '"+flightName+"'");
+//            rs.next();
+//            String foundId = rs.getString(1);
+//            System.out.println(id);
+//            System.out.println(foundId);
+//            Assert.assertEquals(id, foundId); // Compares flight id before and after adding flight to the database
+//            // Assert.assertEquals(id, "negative"); // Always results in comparison failure - used for testing
+//        } catch (SQLException ex) {
+//            ex.printStackTrace();
+//        } catch (Exception cf) {
+//            System.out.println("ERROR - Flight was not added to the database.");
+//        }
+//        return;
+//    }
+>>>>>>> ab937b61eec31b9713ae00280ccd93f74e624753
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
