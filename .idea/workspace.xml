@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b921fc07-7b38-4136-9734-7e20e532eba1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Dependancies/byte-buddy-1.9.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dependancies/byte-buddy-agent-1.9.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dependancies/mockito-core-3.9.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dependancies/objenesis-3.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dependancies/testng-6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dependancies/assertj-swing-junit-3.17.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dependancies/assertj-swing-testng-3.17.1.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AirlineProduct-SWT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AirlineProduct-SWT.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTest/searchCustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTest/searchCustomerTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="268" />
+    <option name="myElementSize" value="302" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -70,11 +68,15 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1oE3hznaWMay8lqWwuZiIZEnSrr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mariadb&#10;sqlite&#10;mysql" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -89,7 +91,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/UnitTest" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Dependancies/objenesis-3.2.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Dependancies/assertj-swing-testng-3.17.1.jar!/" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -102,7 +104,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -130,18 +132,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in AirlineProduct-SWT">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="JUnit.searchCustomerTest">
+    <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AirlineProduct-SWT" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in AirlineProduct-SWT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTestTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AirlineProduct-SWT" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="MAIN_CLASS_NAME" value="LoginTestTwo" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -155,12 +160,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="addflightTest.jButton1ActionPerformed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="addflightTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AirlineProduct-SWT" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="addflightTest" />
-      <option name="METHOD_NAME" value="jButton1ActionPerformed" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -174,23 +178,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="searchCustomerTest.jButton4ActionPerformed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="updateCustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AirlineProduct-SWT" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="searchCustomerTest" />
-      <option name="METHOD_NAME" value="jButton4ActionPerformed" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="updateCustomerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in AirlineProduct-SWT" />
         <item itemvalue="JUnit.searchCustomerTest" />
-        <item itemvalue="JUnit.searchCustomerTest.jButton4ActionPerformed" />
-        <item itemvalue="JUnit.addflightTest.jButton1ActionPerformed" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.LoginTest" />
+        <item itemvalue="JUnit.updateCustomerTest" />
+        <item itemvalue="JUnit.LoginTestTwo" />
+        <item itemvalue="JUnit.addflightTest" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +223,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bf0d773b-a613-4c5a-9018-e3fb8da7ac09" name="Default Changelist" comment="" />
+      <changelist id="b921fc07-7b38-4136-9734-7e20e532eba1" name="Default Changelist" comment="" />
       <created>1612838046259</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -236,6 +239,8 @@
       <workItem from="1617655166906" duration="16247000" />
       <workItem from="1618877673251" duration="10900000" />
       <workItem from="1618889051951" duration="1667000" />
+      <workItem from="1618925593595" duration="800000" />
+      <workItem from="1618928811201" duration="1740000" />
     </task>
     <task id="LOCAL-00001" summary="LoginTest 2 was made pog">
       <created>1615271445925</created>
@@ -286,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618888715417</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added the jar dependancies to the dependancy folder.">
+      <created>1618925063802</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1618925063802</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,11 +319,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="LoginTest 2 was made pog" />
     <MESSAGE value="addflighttest added" />
     <MESSAGE value="Moved Files around and added some test into folders. Added the different Dependancies to a folder." />
     <MESSAGE value="Created the searchCustomerTest class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created the searchCustomerTest class" />
+    <MESSAGE value="Added the jar dependancies to the dependancy folder." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the jar dependancies to the dependancy folder." />
   </component>
   <component name="WindowStateProjectService">
     <state x="808" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1617655180526">
@@ -356,6 +370,13 @@
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617685797853" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$All_in_AirlineProduct_SWT.ic" NAME="All in AirlineProduct-SWT Coverage Results" MODIFIED="1618924991065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$searchCustomerTest.ic" NAME="searchCustomerTest Coverage Results" MODIFIED="1618929027647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$addflightTest.ic" NAME="addflightTest Coverage Results" MODIFIED="1618928980645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$updateCustomerTest.ic" NAME="updateCustomerTest Coverage Results" MODIFIED="1618928998578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$searchCustomerTest_searchCustomerNegativeTest.ic" NAME="searchCustomerTest.searchCustomerNegativeTest Coverage Results" MODIFIED="1618925334691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$LoginTest.ic" NAME="LoginTest Coverage Results" MODIFIED="1618929017687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$All_in_AirlineProduct_SWT__1_.ic" NAME="All in AirlineProduct-SWT (1) Coverage Results" MODIFIED="1618925405590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$All_in_AirlineProduct_SWT.ic" NAME="All in AirlineProduct-SWT Coverage Results" MODIFIED="1618928951902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$LoginTestTwo.ic" NAME="LoginTestTwo Coverage Results" MODIFIED="1618928989111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

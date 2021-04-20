@@ -14,7 +14,7 @@ class searchCustomerTest {
    * This test for the customer ID being correct and displaying the correct information.
    * */
   @Test
-  public void jButton4ActionPerformed() {
+  public void searchCustomerPositiveTest() {
     Connection con = null;
     PreparedStatement pst;
 
@@ -36,6 +36,38 @@ class searchCustomerTest {
 
       // Checking the table fields
       Assert.assertEquals("34232222", rs.getString("nic"));
+
+    } catch (ClassNotFoundException e) {
+      e.printStackTrace();
+    } catch (SQLException e) {
+      e.printStackTrace();
+    }
+  }
+
+  @Test
+  public void searchCustomerNegativeTest() {
+    Connection con = null;
+    PreparedStatement pst;
+
+    searchCustomer searchCustomerTest;
+    JTextField customerIDTest;
+
+    searchCustomerTest = new searchCustomer();
+
+    customerIDTest = (JTextField) TestUtils.getChildNamed(searchCustomerTest, "txtcustid");
+    assert customerIDTest != null;
+    // Incorrect CustomerID
+    customerIDTest.setText("DS001");
+
+    try {
+      Class.forName("com.mysql.jdbc.Driver");
+      con = DriverManager.getConnection("jdbc:mysql://localhost/airline", "root", "");
+      pst = con.prepareStatement("select * from customer where id = ?");
+      pst.setString(1, String.valueOf(customerIDTest));
+      ResultSet rs = pst.executeQuery();
+
+      // Checking the table fields, making sure information is not being given if the ID is incorrect.
+      Assert.assertNotEquals("34232222", rs.getString("nic"));
 
     } catch (ClassNotFoundException e) {
       e.printStackTrace();
