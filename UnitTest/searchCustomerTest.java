@@ -34,6 +34,7 @@ class searchCustomerTest {
       pst.setString(1, String.valueOf(customerIDTest));
       ResultSet rs = pst.executeQuery();
 
+      // Checking the table fields
       Assert.assertEquals("34232222", rs.getString("nic"));
 
     } catch (ClassNotFoundException e) {

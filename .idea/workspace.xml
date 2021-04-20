@@ -2,25 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf0d773b-a613-4c5a-9018-e3fb8da7ac09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/IntegrationTest/updateCustomerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IntegrationTest/addflightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/IntegrationTest/addflightTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/searchCustomer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/searchCustomer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/searchCustomer$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/searchCustomer$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/searchCustomer$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/searchCustomer$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/searchCustomer$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/searchCustomer$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/searchCustomer$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/searchCustomer$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/searchCustomer$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/searchCustomer$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/searchCustomer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/searchCustomer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/searchCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/searchCustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTest/searchCustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTest/searchCustomerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/userCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/userCreation.java" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="287" />
+    <option name="myElementSize" value="268" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -55,37 +48,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <favorite-branches>
-      <branch-storage>
-        <map>
-          <entry type="LOCAL">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$" source="main" />
-              </list>
-            </value>
-          </entry>
-          <entry type="REMOTE">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$" source="origin/main" />
-              </list>
-            </value>
-          </entry>
-        </map>
-      </branch-storage>
-    </favorite-branches>
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="a86865649251ed95a3325b6cc52b9d5b8e4c8a5c" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
@@ -117,7 +85,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/UnitTest" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/objenesis-2.6.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Dependancies/mysql-connector-java-8.0.24.jar!/" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -146,10 +114,30 @@
       <recent name="C:\Users\Armeg\OneDrive - Florida Gulf Coast University\IDEAprojects\AirlineProduct-SWT\Dependancies" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.updateCustomerTest.jButton4ActionPerformed">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.searchCustomerTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="AirlineProduct-SWT" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in AirlineProduct-SWT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AirlineProduct-SWT" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -163,10 +151,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="addflightTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="addflightTest.jButton1ActionPerformed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AirlineProduct-SWT" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="addflightTest" />
+      <option name="METHOD_NAME" value="jButton1ActionPerformed" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="searchCustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AirlineProduct-SWT" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="searchCustomerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -182,36 +180,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="updateCustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AirlineProduct-SWT" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="updateCustomerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="updateCustomerTest.jButton4ActionPerformed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AirlineProduct-SWT" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="updateCustomerTest" />
-      <option name="METHOD_NAME" value="jButton4ActionPerformed" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.updateCustomerTest.jButton4ActionPerformed" />
-        <item itemvalue="JUnit.updateCustomerTest" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.addflightTest" />
+        <item itemvalue="JUnit.searchCustomerTest" />
         <item itemvalue="JUnit.searchCustomerTest.jButton4ActionPerformed" />
+        <item itemvalue="JUnit.All in AirlineProduct-SWT" />
+        <item itemvalue="JUnit.addflightTest.jButton1ActionPerformed" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@9f8d706b" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@9f8d706b" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@2a8cd1f1" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -231,8 +230,8 @@
       <workItem from="1615221481981" duration="9832000" />
       <workItem from="1615262677978" duration="4096000" />
       <workItem from="1617655166906" duration="16247000" />
-      <workItem from="1618877673251" duration="10655000" />
-      <workItem from="1618892580615" duration="9664000" />
+      <workItem from="1618877673251" duration="10900000" />
+      <workItem from="1618889051951" duration="1667000" />
     </task>
     <task id="LOCAL-00001" summary="LoginTest 2 was made pog">
       <created>1615271445925</created>
@@ -276,12 +275,12 @@
       <option name="project" value="LOCAL" />
       <updated>1618882329201</updated>
     </task>
-    <task id="LOCAL-00007" summary="Fixed the original unit test for addflighttest and compiled it with the integration test in the appropriate class.">
-      <created>1618894613044</created>
+    <task id="LOCAL-00007" summary="Created the searchCustomerTest class">
+      <created>1618888715417</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1618894613044</updated>
+      <updated>1618888715417</updated>
     </task>
     <option name="localTasksCounter" value="8" />
     <servers />
@@ -307,81 +306,57 @@
     <MESSAGE value="LoginTest 2 was made pog" />
     <MESSAGE value="addflighttest added" />
     <MESSAGE value="Moved Files around and added some test into folders. Added the different Dependancies to a folder." />
-    <MESSAGE value="Fixed the original unit test for addflighttest and compiled it with the integration test in the appropriate class." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed the original unit test for addflighttest and compiled it with the integration test in the appropriate class." />
+    <MESSAGE value="Created the searchCustomerTest class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created the searchCustomerTest class" />
   </component>
   <component name="WindowStateProjectService">
     <state x="808" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1617655180526">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="808" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617655180526" />
-    <state x="726" y="353" width="467" height="346" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1618895632984">
+    <state x="557" y="115" key="CommitChangelistDialog2" timestamp="1617686253505">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="726" y="353" width="467" height="346" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1618895632984" />
-    <state x="557" y="93" key="CommitChangelistDialog2" timestamp="1618894612601">
+    <state x="557" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1617686253505" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1617658216512">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="557" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1618894612601" />
-    <state x="364" y="262" width="540" height="619" key="FileChooserDialogImpl" timestamp="1618893836209">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1617658216512" />
+    <state width="1921" height="286" key="GridCell.Tab.0.bottom" timestamp="1617675924570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="364" y="262" width="540" height="619" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1618893836209" />
-    <state width="1865" height="275" key="GridCell.Tab.0.bottom" timestamp="1618902312511">
+    <state width="1921" height="286" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1617675924570" />
+    <state width="1921" height="286" key="GridCell.Tab.0.center" timestamp="1617675924570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618902312511" />
-    <state width="1865" height="275" key="GridCell.Tab.0.center" timestamp="1618902312511">
+    <state width="1921" height="286" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1617675924570" />
+    <state width="1921" height="286" key="GridCell.Tab.0.left" timestamp="1617675924570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618902312511" />
-    <state width="1865" height="275" key="GridCell.Tab.0.left" timestamp="1618902312510">
+    <state width="1921" height="286" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1617675924570" />
+    <state width="1921" height="286" key="GridCell.Tab.0.right" timestamp="1617675924570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618902312510" />
-    <state width="1865" height="275" key="GridCell.Tab.0.right" timestamp="1618902312511">
+    <state width="1921" height="286" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617675924570" />
+    <state x="440" y="95" key="SettingsEditor" timestamp="1617686961999">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618902312511" />
-    <state x="440" y="0" key="SettingsEditor" timestamp="1618893836843">
+    <state x="440" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1617686961999" />
+    <state x="552" y="242" key="Vcs.Push.Dialog.v2" timestamp="1617686256547">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1618893836843" />
-    <state x="552" y="242" key="Vcs.Push.Dialog.v2" timestamp="1618894617396">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1618894617396" />
+    <state x="552" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617686256547" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1617685797853">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617685797853" />
-    <state x="627" y="234" key="extract.method.dialog" timestamp="1618896043642">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="627" y="234" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618896043642" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/addflight.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$LoginTest__1_.ic" NAME="LoginTest (1) Coverage Results" MODIFIED="1615271694126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$updateCustomerTest_jButton4ActionPerformed.ic" NAME="updateCustomerTest.jButton4ActionPerformed Coverage Results" MODIFIED="1618902312486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$updateCustomerTest.ic" NAME="updateCustomerTest Coverage Results" MODIFIED="1618901729242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$All_in_AirlineProduct_SWT.ic" NAME="All in AirlineProduct-SWT Coverage Results" MODIFIED="1618885806739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$addflightTest_verifyNewFlight.ic" NAME="addflightTest.verifyNewFlight Coverage Results" MODIFIED="1618893954922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$addflightTest_jButton1ActionPerformed.ic" NAME="addflightTest.jButton1ActionPerformed Coverage Results" MODIFIED="1618894450110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$addflightTest.ic" NAME="addflightTest Coverage Results" MODIFIED="1618894547649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$LoginTest.ic" NAME="LoginTest Coverage Results" MODIFIED="1617658368264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$searchCustomerTest.ic" NAME="searchCustomerTest Coverage Results" MODIFIED="1618885926261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$searchCustomerTest.ic" NAME="searchCustomerTest Coverage Results" MODIFIED="1618890462332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/AirlineProduct_SWT$LoginTest_jButton1ActionPerformed.ic" NAME="LoginTest.jButton1ActionPerformed Coverage Results" MODIFIED="1617669403264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$addflightTest_verifyNewFlight__1_.ic" NAME="addflightTest.verifyNewFlight (1) Coverage Results" MODIFIED="1618894475902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$LoginTest.ic" NAME="LoginTest Coverage Results" MODIFIED="1617658368264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$All_in_AirlineProduct_SWT.ic" NAME="All in AirlineProduct-SWT Coverage Results" MODIFIED="1618888752124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$addflightTest_jButton1ActionPerformed.ic" NAME="addflightTest.jButton1ActionPerformed Coverage Results" MODIFIED="1617675924535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$LoginTest__1_.ic" NAME="LoginTest (1) Coverage Results" MODIFIED="1615271694126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
