@@ -30,7 +30,7 @@ public class LoginTest {
         String password = passTest.getText();
 
         try {
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
             con = DriverManager.getConnection("jdbc:mysql://localhost/airline", "root", "");
             pst = con.prepareStatement("select * from user where username = ? and password = ?");
             pst.setString(1, username);
