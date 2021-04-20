@@ -198,23 +198,23 @@ public class userCreation extends javax.swing.JInternalFrame {
         } catch (SQLException ex) {
             Logger.getLogger(addflight.class.getName()).log(Level.SEVERE, null, ex);
         }
-           
-            
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
