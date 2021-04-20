@@ -1,17 +1,16 @@
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import org.junit.Test;
 
 import javax.swing.*;
 import java.sql.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import org.junit.jupiter.api.Test;
 
-public class LoginTest {
-
+public class LoginTestTwo {
     @Test
-    public void jButton1ActionPerformed() {
+    void jButton1ActionPerformed() {
         Connection con;
         PreparedStatement pst;
 
@@ -24,10 +23,10 @@ public class LoginTest {
 
         userTest = (JTextField) TestUtils.getChildNamed(loginTest, "txtuser");
         passTest = (JPasswordField) TestUtils.getChildNamed(loginTest, "txtpass");
-        userTest.setText("john");
+        userTest.setText("joHn");
         passTest.setText("123");
 
-        String username = userTest.getText();
+        String username =  userTest.getText();
         String password = passTest.getText();
 
         try {
@@ -39,12 +38,7 @@ public class LoginTest {
 
             ResultSet rs;
             rs = pst.executeQuery();
-            Main m = new Main();
-            if(rs.next()){
-                m.setVisible(true);
-            }
-
-            assertTrue(m.isVisible());
+            assertTrue(rs.next());
 
         }catch (ClassNotFoundException ex) {
             Logger.getLogger(Login.class.getName()).log(Level.SEVERE, null, ex);

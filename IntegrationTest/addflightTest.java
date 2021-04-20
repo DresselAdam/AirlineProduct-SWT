@@ -1,10 +1,9 @@
-import org.junit.Assert;
-import org.junit.Test;
-
 import javax.swing.*;
 import java.sql.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import org.junit.jupiter.api.Test;
+import org.testng.Assert;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
