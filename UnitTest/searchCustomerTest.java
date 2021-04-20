@@ -31,9 +31,9 @@ class searchCustomerTest {
       Class.forName("com.mysql.jdbc.Driver");
       con = DriverManager.getConnection("jdbc:mysql://localhost/airline", "root", "");
       pst = con.prepareStatement("select * from customer where id = ?");
-      pst.setString(1, String.valueOf(customerIDTest));
+      pst.setString(1, customerIDTest.getText());
       ResultSet rs = pst.executeQuery();
-
+      rs.next();
       Assert.assertEquals("34232222", rs.getString("nic"));
 
     } catch (ClassNotFoundException e) {
