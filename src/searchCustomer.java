@@ -42,7 +42,12 @@ public class searchCustomer extends javax.swing.JInternalFrame {
     public searchCustomer() {
         initComponents();
         txtcustid.setName("txtcustid");
-
+        txtfirstname.setName("txtfirstname");
+        txtlastname.setName("txtlastname");
+        txtnic.setName("txtnic");
+        txtpassport.setName("txtpassport");
+        txtaddress.setName("txtaddress");
+        txtcontact.setName("txtcontact");
     }
 
     Connection con;
@@ -404,7 +409,7 @@ public class searchCustomer extends javax.swing.JInternalFrame {
         String contact = txtcontact.getText();
 
         try {
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
             con = DriverManager.getConnection("jdbc:mysql://localhost/airline", "root", "");
             pst = con.prepareStatement("update customer set firstname = ?,lastname = ?,nic = ?,passport = ?,address= ?,dob = ?,gender = ?,contact = ?,photo = ? where id = ?");
 
@@ -422,7 +427,7 @@ public class searchCustomer extends javax.swing.JInternalFrame {
             pst.executeUpdate();
 
 
-            JOptionPane.showMessageDialog(null, "Registation Updateddddd.........");
+            JOptionPane.showMessageDialog(null, "Registation Updated.");
 
 
         } catch (ClassNotFoundException ex) {
@@ -447,7 +452,7 @@ public class searchCustomer extends javax.swing.JInternalFrame {
 
 
         try {
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
             con = DriverManager.getConnection("jdbc:mysql://localhost/airline", "root", "");
             pst = con.prepareStatement("select * from customer where id = ?");
             pst.setString(1, id);
@@ -493,7 +498,6 @@ public class searchCustomer extends javax.swing.JInternalFrame {
                 txtcontact.setText(contact.trim());
                 // txtdob.setDate(date1);
                 txtphoto.setIcon(newImage);
-
 
             }
 

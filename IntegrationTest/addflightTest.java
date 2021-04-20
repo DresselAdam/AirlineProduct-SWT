@@ -11,6 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.when;
 
+
 public class addflightTest {
 
     @BeforeMethod
@@ -18,8 +19,12 @@ public class addflightTest {
         MockitoAnnotations.initMocks(this);
     }
 
+    /*
+     * verifyAddFlight uses Mockito to test that the methodology used for uploading and retrieving flight data entries
+     * to and from the database works properly without an established database connection.
+     * */
     @Test
-    public void verifyNewFlight() {
+    public void verifyAddFlight() {
 
         try {
             String testID = "testID";
@@ -65,6 +70,10 @@ public class addflightTest {
         return;
     }
 
+    /*
+     * This test is similar to verifyAddFlight however it uses an active database connection to ensure that the entire
+     * process works properly.
+     * */
     @Test
     public void jButton1ActionPerformed() {
         Connection con = null;
@@ -81,7 +90,7 @@ public class addflightTest {
         flightIDTest.setText("testID");
         flightNameTest.setText("testFlightName");
 
-        String idInsert =  flightIDTest.getText();
+        String idInsert = flightIDTest.getText();
         String flightNameInsert = flightNameTest.getText();
 
         try {
