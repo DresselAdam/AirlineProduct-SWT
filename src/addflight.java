@@ -1,8 +1,3 @@
-
-import org.junit.Assert;
-import org.junit.ComparisonFailure;
-import org.junit.Test;
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -291,11 +286,8 @@ public class addflight extends javax.swing.JInternalFrame {
             pst.setString(8, flightcharge);
            
             pst.executeUpdate();
-            
-<<<<<<< HEAD
-=======
+
 //            verifyNewFlight(id, flightname);
->>>>>>> ab937b61eec31b9713ae00280ccd93f74e624753
 
             JOptionPane.showMessageDialog(null,"Flight Created.........");
         } catch (ClassNotFoundException ex) {
@@ -312,9 +304,6 @@ public class addflight extends javax.swing.JInternalFrame {
         this.hide();
     }//GEN-LAST:event_jButton2ActionPerformed
 
-<<<<<<< HEAD
-
-=======
 //    @Test
 //    public void verifyNewFlight(String id, String flightName) {
 //
@@ -334,7 +323,6 @@ public class addflight extends javax.swing.JInternalFrame {
 //        }
 //        return;
 //    }
->>>>>>> ab937b61eec31b9713ae00280ccd93f74e624753
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
