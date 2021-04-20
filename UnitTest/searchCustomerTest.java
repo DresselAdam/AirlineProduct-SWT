@@ -28,7 +28,7 @@ class searchCustomerTest {
     customerIDTest.setText("CS001");
 
     try {
-      Class.forName("com.mysql.jdbc.Driver");
+      Class.forName("com.mysql.cj.jdbc.Driver");
       con = DriverManager.getConnection("jdbc:mysql://localhost/airline", "root", "");
       pst = con.prepareStatement("select * from customer where id = ?");
       pst.setString(1, customerIDTest.getText());

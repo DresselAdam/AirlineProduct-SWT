@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bf0d773b-a613-4c5a-9018-e3fb8da7ac09" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTest/searchCustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTest/searchCustomerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="227" />
+    <option name="myElementSize" value="283" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -217,7 +218,7 @@
       <workItem from="1615262677978" duration="4096000" />
       <workItem from="1617655166906" duration="16247000" />
       <workItem from="1618877673251" duration="10655000" />
-      <workItem from="1618892580615" duration="10810000" />
+      <workItem from="1618892580615" duration="11063000" />
     </task>
     <task id="LOCAL-00001" summary="LoginTest 2 was made pog">
       <created>1615271445925</created>
@@ -275,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618902413104</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Updated searchCustomerTest">
+      <created>1618942557108</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1618942557108</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,7 +309,8 @@
     <MESSAGE value="Moved Files around and added some test into folders. Added the different Dependancies to a folder." />
     <MESSAGE value="Fixed the original unit test for addflighttest and compiled it with the integration test in the appropriate class." />
     <MESSAGE value="Created one test for requirement 4) &quot;The user shall be able to edit customer records&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created one test for requirement 4) &quot;The user shall be able to edit customer records&quot;" />
+    <MESSAGE value="Updated searchCustomerTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated searchCustomerTest" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="168" width="1161" height="704" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618942362214">
@@ -316,38 +325,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="726" y="353" width="467" height="346" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1618895632984" />
-    <state x="557" y="93" key="CommitChangelistDialog2" timestamp="1618902412654">
+    <state x="557" y="93" key="CommitChangelistDialog2" timestamp="1618942556726">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="557" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1618902412654" />
+    <state x="557" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1618942556726" />
     <state x="364" y="262" width="540" height="619" key="FileChooserDialogImpl" timestamp="1618893836209">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="364" y="262" width="540" height="619" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1618893836209" />
-    <state width="1865" height="275" key="GridCell.Tab.0.bottom" timestamp="1618942534164">
+    <state width="1865" height="275" key="GridCell.Tab.0.bottom" timestamp="1618942616512">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618942534164" />
-    <state width="1865" height="275" key="GridCell.Tab.0.center" timestamp="1618942534164">
+    <state width="1865" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618942616512" />
+    <state width="1865" height="275" key="GridCell.Tab.0.center" timestamp="1618942616512">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618942534164" />
-    <state width="1865" height="275" key="GridCell.Tab.0.left" timestamp="1618942534164">
+    <state width="1865" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618942616512" />
+    <state width="1865" height="275" key="GridCell.Tab.0.left" timestamp="1618942616512">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618942534164" />
-    <state width="1865" height="275" key="GridCell.Tab.0.right" timestamp="1618942534164">
+    <state width="1865" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618942616512" />
+    <state width="1865" height="275" key="GridCell.Tab.0.right" timestamp="1618942616512">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618942534164" />
+    <state width="1865" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618942616512" />
+    <state x="606" y="167" key="MultipleFileMergeDialog" timestamp="1618942586160">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="606" y="167" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618942586160" />
     <state x="440" y="0" key="SettingsEditor" timestamp="1618893836843">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1618893836843" />
-    <state x="552" y="242" key="Vcs.Push.Dialog.v2" timestamp="1618902420178">
+    <state x="552" y="242" key="Vcs.Push.Dialog.v2" timestamp="1618942562240">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1618902420178" />
+    <state x="552" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1618942562240" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1617685797853">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -375,7 +388,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AirlineProduct_SWT$updateCustomerTest.exec" NAME="updateCustomerTest Coverage Results" MODIFIED="1618942094259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/AirlineProduct_SWT$updateCustomerTest_jButton4ActionPerformed.ic" NAME="updateCustomerTest.jButton4ActionPerformed Coverage Results" MODIFIED="1618902312486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$searchCustomerTest_jButton4ActionPerformed.ic" NAME="searchCustomerTest.jButton4ActionPerformed Coverage Results" MODIFIED="1618942534144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$searchCustomerTest_jButton4ActionPerformed.ic" NAME="searchCustomerTest.jButton4ActionPerformed Coverage Results" MODIFIED="1618942616495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/AirlineProduct_SWT$updateCustomerTest.ic" NAME="updateCustomerTest Coverage Results" MODIFIED="1618942124558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
     <SUITE FILE_PATH="coverage/AirlineProduct_SWT$addflightTest_verifyNewFlight.ic" NAME="addflightTest.verifyNewFlight Coverage Results" MODIFIED="1618893954922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/AirlineProduct_SWT$addflightTest_jButton1ActionPerformed.ic" NAME="addflightTest.jButton1ActionPerformed Coverage Results" MODIFIED="1618894450110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
