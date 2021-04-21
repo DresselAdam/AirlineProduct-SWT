@@ -2,74 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf0d773b-a613-4c5a-9018-e3fb8da7ac09" name="Default Changelist" comment="Added all classes and test cases to packages">
+      <change afterPath="$PROJECT_DIR$/Test/IntegrationTest/userCreationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AirlineProduct-SWT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AirlineProduct-SWT.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IntegrationTest/LoginTestTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/IntegrationTest/LoginTestTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IntegrationTest/addCustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/IntegrationTest/addCustomerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IntegrationTest/addflightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/IntegrationTest/addflightTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IntegrationTest/updateCustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/IntegrationTest/updateCustomerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTest/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/UnitTest/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTest/addflightTestTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/UnitTest/addflightTestTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTest/searchCustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/UnitTest/searchCustomerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/Login$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/Login$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/Login.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/Main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/Main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/Main$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/Main$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/Main$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/Main$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/Main$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/TestUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/addCustomer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/addCustomer$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/addCustomer$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/addCustomer$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/addCustomer$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/addCustomer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/addflight$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/addflight$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/addflight.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/searchCustomer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/searchCustomer$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/searchCustomer$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/searchCustomer$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/searchCustomer$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/searchCustomer$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/searchCustomer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/ticket$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/ticket$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/ticket$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/ticket$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/ticket$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/ticket$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/ticket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/ticketreport$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/ticketreport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/userCreation$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/userCreation$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AirlineProduct-SWT/userCreation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Login.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Login.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Main.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TestUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/addCustomer.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/addCustomer.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/addCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/addCustomer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/addflight.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/addflight.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/addflight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/addflight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/searchCustomer.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/searchCustomer.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/searchCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/searchCustomer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ticket.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ticket.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ticket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ticketreport.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ticketreport.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ticketreport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ticketreport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/userCreation.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/userCreation.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/userCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/userCreation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/userCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/userCreation.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +13,7 @@
   </component>
   <component name="CoverageViewManager">
     <option name="myFlattenPackages" value="true" />
-    <option name="myElementSize" value="143" />
+    <option name="myElementSize" value="189" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -199,43 +135,7 @@
       <recent name="C:\Users\Armeg\OneDrive - Florida Gulf Coast University\IDEAprojects\AirlineProduct-SWT\Dependancies" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.All in AirlineProduct-SWT">
-    <configuration name="All in AirlineProduct-SWT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AirlineProduct-SWT" />
-      <extension name="coverage" sample_coverage="false" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IntegrationTest in AirlineProduct-SWT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AirlineProduct-SWT" />
-      <extension name="coverage" sample_coverage="false" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="directory" />
-      <option name="PARAMETERS" value="" />
-      <dir value="$PROJECT_DIR$/IntegrationTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.IntegrationTest in AirlineProduct-SWT">
     <configuration name="IntegrationTest in AirlineProduct-SWT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AirlineProduct-SWT" />
       <extension name="coverage" sample_coverage="false" />
@@ -261,27 +161,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnitTest in AirlineProduct-SWT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTestTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AirlineProduct-SWT" />
-      <extension name="coverage" sample_coverage="false" />
-      <option name="PACKAGE_NAME" value="UnitTest" />
-      <option name="MAIN_CLASS_NAME" value="" />
+      <extension name="coverage" sample_coverage="false">
+        <pattern>
+          <option name="PATTERN" value="IntegrationTest.*" />
+          <option name="ENABLED" value="false" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="IntegrationTest" />
+      <option name="MAIN_CLASS_NAME" value="IntegrationTest.LoginTestTwo" />
       <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="PARAMETERS" value="" />
-      <dir value="$PROJECT_DIR$/Test/UnitTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UnitTest in AirlineProduct-SWT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AirlineProduct-SWT" />
-      <extension name="coverage" sample_coverage="false" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="directory" />
-      <option name="PARAMETERS" value="" />
-      <dir value="$PROJECT_DIR$/Test/UnitTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -298,37 +190,117 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com in AirlineProduct-SWT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="addCustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AirlineProduct-SWT" />
-      <extension name="coverage">
+      <extension name="coverage" sample_coverage="false">
         <pattern>
-          <option name="PATTERN" value="com.*" />
+          <option name="PATTERN" value="IntegrationTest.*" />
+          <option name="ENABLED" value="false" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="IntegrationTest" />
+      <option name="MAIN_CLASS_NAME" value="IntegrationTest.addCustomerTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="addflightTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="AirlineProduct-SWT" />
+      <extension name="coverage" sample_coverage="false">
+        <pattern>
+          <option name="PATTERN" value="IntegrationTest.*" />
+          <option name="ENABLED" value="false" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="IntegrationTest" />
+      <option name="MAIN_CLASS_NAME" value="IntegrationTest.addflightTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="updateCustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AirlineProduct-SWT" />
+      <extension name="coverage" sample_coverage="false">
+        <pattern>
+          <option name="PATTERN" value="IntegrationTest.*" />
+          <option name="ENABLED" value="false" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="IntegrationTest" />
+      <option name="MAIN_CLASS_NAME" value="IntegrationTest.updateCustomerTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="userCreationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AirlineProduct-SWT" />
+      <extension name="coverage" sample_coverage="false">
+        <pattern>
+          <option name="PATTERN" value="IntegrationTest.*" />
+          <option name="ENABLED" value="false" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="IntegrationTest" />
+      <option name="MAIN_CLASS_NAME" value="IntegrationTest.userCreationTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegrationTest" type="TestNG" nameIsGenerated="true">
+      <module name="AirlineProduct-SWT" />
+      <extension name="coverage" sample_coverage="false">
+        <pattern>
+          <option name="PATTERN" value="IntegrationTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="IntegrationTest" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.UnitTest in AirlineProduct-SWT" />
-      <item itemvalue="JUnit.All in AirlineProduct-SWT" />
       <item itemvalue="JUnit.IntegrationTest in AirlineProduct-SWT" />
-      <item itemvalue="JUnit.com in AirlineProduct-SWT" />
+      <item itemvalue="TestNG.IntegrationTest" />
+      <item itemvalue="JUnit.addCustomerTest" />
+      <item itemvalue="JUnit.addflightTest" />
+      <item itemvalue="JUnit.LoginTestTwo" />
+      <item itemvalue="JUnit.updateCustomerTest" />
+      <item itemvalue="JUnit.userCreationTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in AirlineProduct-SWT" />
         <item itemvalue="JUnit.IntegrationTest in AirlineProduct-SWT" />
-        <item itemvalue="JUnit.UnitTest in AirlineProduct-SWT" />
-        <item itemvalue="JUnit.com in AirlineProduct-SWT" />
-        <item itemvalue="JUnit.IntegrationTest in AirlineProduct-SWT" />
+        <item itemvalue="JUnit.updateCustomerTest" />
+        <item itemvalue="JUnit.userCreationTest" />
+        <item itemvalue="JUnit.LoginTestTwo" />
+        <item itemvalue="JUnit.addCustomerTest" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -353,6 +325,8 @@
       <workItem from="1619024480559" duration="4989000" />
       <workItem from="1619030971364" duration="700000" />
       <workItem from="1619031698803" duration="930000" />
+      <workItem from="1619032737836" duration="891000" />
+      <workItem from="1619033654896" duration="461000" />
     </task>
     <task id="LOCAL-00001" summary="LoginTest 2 was made pog">
       <created>1615271445925</created>
@@ -463,10 +437,34 @@
     <option name="LAST_COMMIT_MESSAGE" value="Added all classes and test cases to packages" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="631" y="80" key="#IntegrationTest" timestamp="1619033628563">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="631" y="80" key="#IntegrationTest/0.0.1920.1040@0.0.1920.1040" timestamp="1619033628563" />
+    <state x="513" y="75" key="#IntegrationTest_in_AirlineProduct-SWT_(1)" timestamp="1619033503845">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="513" y="75" key="#IntegrationTest_in_AirlineProduct-SWT_(1)/0.0.1920.1040@0.0.1920.1040" timestamp="1619033503845" />
+    <state x="513" y="115" key="#LoginTestTwo" timestamp="1619033807943">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="513" y="115" key="#LoginTestTwo/0.0.1920.1040@0.0.1920.1040" timestamp="1619033807943" />
     <state x="452" y="95" key="#Plugins" timestamp="1618972733061">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="452" y="95" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1618972733061" />
+    <state x="631" y="80" key="#UnitTest" timestamp="1619033592143">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="631" y="80" key="#UnitTest/0.0.1920.1040@0.0.1920.1040" timestamp="1619033592143" />
+    <state x="513" y="115" key="#addCustomerTest" timestamp="1619033717938">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="513" y="115" key="#addCustomerTest/0.0.1920.1040@0.0.1920.1040" timestamp="1619033717938" />
+    <state x="513" y="115" key="#addflightTest" timestamp="1619033775783">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="513" y="115" key="#addflightTest/0.0.1920.1040@0.0.1920.1040" timestamp="1619033775783" />
     <state x="414" y="168" width="1161" height="704" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618978221086">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -479,30 +477,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="726" y="353" width="467" height="346" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1618895632984" />
-    <state x="557" y="93" key="CommitChangelistDialog2" timestamp="1618943037688">
+    <state x="513" y="115" key="#updateCustomerTest" timestamp="1619033826373">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="557" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1618943037688" />
-    <state x="364" y="262" width="540" height="619" key="FileChooserDialogImpl" timestamp="1618974272676">
+    <state x="513" y="115" key="#updateCustomerTest/0.0.1920.1040@0.0.1920.1040" timestamp="1619033826373" />
+    <state x="513" y="115" key="#userCreationTest" timestamp="1619033842140">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="364" y="262" width="540" height="619" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1618974272676" />
-    <state width="1865" height="275" key="GridCell.Tab.0.bottom" timestamp="1618979892491">
+    <state x="513" y="98" key="#userCreationTest.jButton1ActionPerformed" timestamp="1619033280276">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618979892491" />
-    <state width="1865" height="275" key="GridCell.Tab.0.center" timestamp="1618979892491">
+    <state x="513" y="98" key="#userCreationTest.jButton1ActionPerformed/0.0.1920.1040@0.0.1920.1040" timestamp="1619033280276" />
+    <state x="513" y="115" key="#userCreationTest/0.0.1920.1040@0.0.1920.1040" timestamp="1619033842140" />
+    <state x="557" y="93" key="CommitChangelistDialog2" timestamp="1618980022372">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618979892491" />
-    <state width="1865" height="275" key="GridCell.Tab.0.left" timestamp="1618979892491">
+    <state x="557" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1618980022372" />
+    <state x="364" y="262" width="540" height="619" key="FileChooserDialogImpl" timestamp="1619033513308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618979892491" />
-    <state width="1865" height="275" key="GridCell.Tab.0.right" timestamp="1618979892491">
+    <state x="364" y="262" width="540" height="619" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1619033513308" />
+    <state width="1865" height="275" key="GridCell.Tab.0.bottom" timestamp="1619033897829">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618979892491" />
+    <state width="1865" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619033897829" />
+    <state width="1865" height="275" key="GridCell.Tab.0.center" timestamp="1619033897828">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619033897828" />
+    <state width="1865" height="275" key="GridCell.Tab.0.left" timestamp="1619033897828">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619033897828" />
+    <state width="1865" height="275" key="GridCell.Tab.0.right" timestamp="1619033897828">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619033897828" />
     <state x="606" y="167" key="MultipleFileMergeDialog" timestamp="1618942586160">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -511,18 +521,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1618974296123" />
-    <state x="552" y="242" key="Vcs.Push.Dialog.v2" timestamp="1618943040127">
+    <state x="552" y="242" key="Vcs.Push.Dialog.v2" timestamp="1618980024880">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1618943040127" />
+    <state x="552" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1618980024880" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1617685797853">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617685797853" />
-    <state x="739" y="419" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1618974243061">
+    <state x="591" y="302" key="com.intellij.ide.util.TipDialog" timestamp="1619033657465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="419" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1618974243061" />
+    <state x="591" y="302" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1619033657465" />
+    <state x="739" y="419" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1619032721219">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="419" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1619032721219" />
     <state x="627" y="234" key="extract.method.dialog" timestamp="1618896043642">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -533,35 +547,45 @@
     <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1618971987269" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$updateCustomerTest.exec" NAME="updateCustomerTest Coverage Results" MODIFIED="1618942094259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$userCreationTest_jButton1ActionPerformed.ic" NAME="userCreationTest.jButton1ActionPerformed Coverage Results" MODIFIED="1619033283538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>IntegrationTest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$addflightTest_verifyNewFlight.ic" NAME="addflightTest.verifyNewFlight Coverage Results" MODIFIED="1618893954922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$addflightTest_jButton1ActionPerformed.ic" NAME="addflightTest.jButton1ActionPerformed Coverage Results" MODIFIED="1618978169471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/AirlineProduct_SWT$LoginTest_jButton1ActionPerformed.ic" NAME="LoginTest.jButton1ActionPerformed Coverage Results" MODIFIED="1617669403264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$IntegrationTest_in_AirlineProduct_SWT.ic" NAME="IntegrationTest in AirlineProduct-SWT Coverage Results" MODIFIED="1619032395151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$addflightTest_verifyAddFlight.ic" NAME="addflightTest.verifyAddFlight Coverage Results" MODIFIED="1618942807827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$addCustomerTest_jButton1ActionPerformed.ic" NAME="addCustomerTest.jButton1ActionPerformed Coverage Results" MODIFIED="1618979892472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$All_in_AirlineProduct_SWT.ic" NAME="All in AirlineProduct-SWT Coverage Results" MODIFIED="1619032434098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$addflightTest.ic" NAME="addflightTest Coverage Results" MODIFIED="1618978223840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$LoginTest.ic" NAME="LoginTest Coverage Results" MODIFIED="1618974579406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$IntegrationTest_in_AirlineProduct_SWT.ic" NAME="IntegrationTest in AirlineProduct-SWT Coverage Results" MODIFIED="1619033897808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$addflightTest_verifyNewFlight__1_.ic" NAME="addflightTest.verifyNewFlight (1) Coverage Results" MODIFIED="1618894475902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$UnitTest_in_AirlineProduct_SWT.ic" NAME="UnitTest in AirlineProduct-SWT Coverage Results" MODIFIED="1619033669692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$LoginTestTwo.ic" NAME="LoginTestTwo Coverage Results" MODIFIED="1619033798628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>IntegrationTest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$UnitTest_in_AirlineProduct_SWT__2_.ic" NAME="UnitTest in AirlineProduct-SWT (2) Coverage Results" MODIFIED="1619031641017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$UnitTestSuite.ic" NAME="UnitTestSuite Coverage Results" MODIFIED="1619030322292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$searchCustomerTest_jButton4ActionPerformed.ic" NAME="searchCustomerTest.jButton4ActionPerformed Coverage Results" MODIFIED="1618942760480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$updateCustomerTest_jButton4ActionPerformed.ic" NAME="updateCustomerTest.jButton4ActionPerformed Coverage Results" MODIFIED="1618978893120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$updateCustomerTest.ic" NAME="updateCustomerTest Coverage Results" MODIFIED="1619033881545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
     <SUITE FILE_PATH="coverage/AirlineProduct_SWT$com_in_AirlineProduct_SWT.ic" NAME="com in AirlineProduct-SWT Coverage Results" MODIFIED="1619031888482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$LoginTestTwo.ic" NAME="LoginTestTwo Coverage Results" MODIFIED="1618974561115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$UnitTest_in_AirlineProduct_SWT__1_.ic" NAME="UnitTest in AirlineProduct-SWT (1) Coverage Results" MODIFIED="1619031405520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/AirlineProduct_SWT$addflightTestTwo.ic" NAME="addflightTestTwo Coverage Results" MODIFIED="1619028432264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$addflightTest.ic" NAME="addflightTest Coverage Results" MODIFIED="1618978223840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$LoginTestTwo_jButton1ActionPerformed.ic" NAME="LoginTestTwo.jButton1ActionPerformed Coverage Results" MODIFIED="1618942782306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$All_in_AirlineProduct_SWT.ic" NAME="All in AirlineProduct-SWT Coverage Results" MODIFIED="1619032434098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$addflightTest_jButton1ActionPerformed.ic" NAME="addflightTest.jButton1ActionPerformed Coverage Results" MODIFIED="1618978169471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$UnitTestSuite.ic" NAME="UnitTestSuite Coverage Results" MODIFIED="1619030322292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$IntegrationTest_in_AirlineProduct_SWT__1_.ic" NAME="IntegrationTest in AirlineProduct-SWT (1) Coverage Results" MODIFIED="1619031770969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$addCustomerTest.ic" NAME="addCustomerTest Coverage Results" MODIFIED="1619033721165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$IntegrationTest_in_AirlineProduct_SWT__1_.ic" NAME="IntegrationTest in AirlineProduct-SWT (1) Coverage Results" MODIFIED="1619033533854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>IntegrationTest.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$addflightTest_verifyNewFlight__1_.ic" NAME="addflightTest.verifyNewFlight (1) Coverage Results" MODIFIED="1618894475902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$UnitTest_in_AirlineProduct_SWT__2_.ic" NAME="UnitTest in AirlineProduct-SWT (2) Coverage Results" MODIFIED="1619031641017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$addflightTest_verifyNewFlight.ic" NAME="addflightTest.verifyNewFlight Coverage Results" MODIFIED="1618893954922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$LoginTest.ic" NAME="LoginTest Coverage Results" MODIFIED="1618974579406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$updateCustomerTest.exec" NAME="updateCustomerTest Coverage Results" MODIFIED="1618942094259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$addflightTest_verifyAddFlight.ic" NAME="addflightTest.verifyAddFlight Coverage Results" MODIFIED="1618942807827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$searchCustomerTest.ic" NAME="searchCustomerTest Coverage Results" MODIFIED="1619028700210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$addCustomerTest_jButton1ActionPerformed.ic" NAME="addCustomerTest.jButton1ActionPerformed Coverage Results" MODIFIED="1618979892472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$searchCustomerTest__1_.ic" NAME="searchCustomerTest (1) Coverage Results" MODIFIED="1619030911478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$UnitTest_in_AirlineProduct_SWT__1_.ic" NAME="UnitTest in AirlineProduct-SWT (1) Coverage Results" MODIFIED="1619031405520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$UnitTest_in_AirlineProduct_SWT.ic" NAME="UnitTest in AirlineProduct-SWT Coverage Results" MODIFIED="1619032328303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$updateCustomerTest.ic" NAME="updateCustomerTest Coverage Results" MODIFIED="1618974568489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$searchCustomerTest_jButton4ActionPerformed.ic" NAME="searchCustomerTest.jButton4ActionPerformed Coverage Results" MODIFIED="1618942760480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$updateCustomerTest_jButton4ActionPerformed.ic" NAME="updateCustomerTest.jButton4ActionPerformed Coverage Results" MODIFIED="1618978893120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$LoginTestTwo_jButton1ActionPerformed.ic" NAME="LoginTestTwo.jButton1ActionPerformed Coverage Results" MODIFIED="1618942782306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
     <SUITE FILE_PATH="coverage/AirlineProduct_SWT$LoginTest__1_.ic" NAME="LoginTest (1) Coverage Results" MODIFIED="1615271694126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$userCreationTest.ic" NAME="userCreationTest Coverage Results" MODIFIED="1619033845205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$UnitTest.ic" NAME="UnitTest Coverage Results" MODIFIED="1619033566525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>UnitTest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$searchCustomerTest.ic" NAME="searchCustomerTest Coverage Results" MODIFIED="1619028700210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$searchCustomerTest__1_.ic" NAME="searchCustomerTest (1) Coverage Results" MODIFIED="1619030911478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

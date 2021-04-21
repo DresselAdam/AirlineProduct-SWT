@@ -25,6 +25,11 @@ public class userCreation extends javax.swing.JInternalFrame {
     public userCreation() {
         initComponents();
         autoID();
+        txtuserid.setName("txtuserid");
+        txtfirstname.setName("txtfirstname");
+        txtlastname.setName("txtlastname");
+        txtusername.setName("txtusername");
+        txtpassword.setName("txtpassword");
     }
     Connection con;
     PreparedStatement pst;
@@ -169,11 +174,11 @@ public class userCreation extends javax.swing.JInternalFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
         
-          String id = txtuserid.getText();
-         String firstname = txtfirstname.getText();
-         String lastname = txtlastname.getText();
+        String id = txtuserid.getText();
+        String firstname = txtfirstname.getText();
+        String lastname = txtlastname.getText();
         String username = txtusername.getText();
-         String password = txtpassword.getText();
+        String password = txtpassword.getText();
          
       
         try {
