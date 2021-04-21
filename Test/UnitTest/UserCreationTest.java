@@ -23,11 +23,6 @@ public class UserCreationTest {
     add = new userCreation();
   }
 
-  /**
-   * Purpose: A simple manual GUI testcase to assist with reaching line and branch coverage of UserCreationController
-   * class. The test pulls button actions from UserCreationController to show that the system can perform button clicks
-   * for the add button and the cancel button.
-   */
   @Test
   public void userButtonTest() {
 
@@ -67,6 +62,14 @@ public class UserCreationTest {
     String id = add.autoID("com.mysql.jdbc.Driver", true);
     assertEquals("UO001", id);
 
+  }
+
+  @Test
+  public void validAutoIDTest() {
+
+    String id = add.autoID("com.mysql.jdbc.Driver", false);
+    assertTrue(id.substring(0,2).equals("UO"));
+    assertTrue(id.substring(2, 4).equals("006"));
   }
 
   @Test

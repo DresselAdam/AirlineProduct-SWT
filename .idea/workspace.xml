@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf0d773b-a613-4c5a-9018-e3fb8da7ac09" name="Default Changelist" comment="Added all classes and test cases to packages">
-      <change afterPath="$PROJECT_DIR$/Test/UnitTest/UserCreationTest.java" afterDir="false" />
+    <list default="true" id="bf0d773b-a613-4c5a-9018-e3fb8da7ac09" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/userCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/userCreation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/UnitTest/UserCreationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/UnitTest/UserCreationTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +13,7 @@
   </component>
   <component name="CoverageViewManager">
     <option name="myFlattenPackages" value="true" />
-    <option name="myElementSize" value="292" />
+    <option name="myElementSize" value="310" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -208,8 +207,8 @@
       <module name="AirlineProduct-SWT" />
       <extension name="coverage" sample_coverage="false">
         <pattern>
-          <option name="PATTERN" value="UnitTest.*" />
-          <option name="ENABLED" value="false" />
+          <option name="PATTERN" value="UnitTest.UserCreationTest" />
+          <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="UnitTest" />
@@ -341,7 +340,7 @@
       <workItem from="1619031698803" duration="930000" />
       <workItem from="1619032737836" duration="891000" />
       <workItem from="1619033654896" duration="461000" />
-      <workItem from="1619034218061" duration="1966000" />
+      <workItem from="1619034218061" duration="2514000" />
     </task>
     <task id="LOCAL-00001" summary="LoginTest 2 was made pog">
       <created>1615271445925</created>
@@ -420,7 +419,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618943038078</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="UserCreationTest unit test created">
+      <created>1619036377989</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1619036377989</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -449,7 +455,8 @@
     <MESSAGE value="Updated searchCustomerTest" />
     <MESSAGE value="Fixed some deprecated text" />
     <MESSAGE value="Added all classes and test cases to packages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added all classes and test cases to packages" />
+    <MESSAGE value="UserCreationTest unit test created" />
+    <option name="LAST_COMMIT_MESSAGE" value="UserCreationTest unit test created" />
   </component>
   <component name="WindowStateProjectService">
     <state x="631" y="80" key="#IntegrationTest" timestamp="1619033628563">
