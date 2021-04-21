@@ -1,8 +1,5 @@
 package com;
 
-
-
-import java.io.Serializable;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -11,6 +8,7 @@ import java.sql.Statement;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JOptionPane;
+import javax.swing.JTextField;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -22,11 +20,16 @@ import javax.swing.JOptionPane;
 public class userCreation extends javax.swing.JInternalFrame {
 
     /**
-     * Creates new form UserCreationController
-     */
+     * Creates new userCreation form.
+     * */
     public userCreation() {
         initComponents();
         autoID("com.mysql.jdbc.Driver", false);
+        txtfirstname.setName("txtfirstname");
+        txtlastname.setName("txtlastname");
+        txtuserid.setName("txtuserid");
+        txtusername.setName("txtusername");
+        txtpassword.setName("txtpassword");
     }
 
     Connection con;
