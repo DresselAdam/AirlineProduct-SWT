@@ -1,7 +1,11 @@
 import javax.swing.*;
 import java.sql.*;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+import com.toedter.calendar.JDateChooser;
 import org.junit.jupiter.api.Test;
 import org.mockito.*;
 import org.testng.Assert;
@@ -14,98 +18,48 @@ import static org.mockito.Mockito.when;
 
 public class addflightTest {
 
-    @BeforeMethod
-    public void beforeMethod() {
-        MockitoAnnotations.initMocks(this);
-    }
-
     /*
-     * verifyAddFlight uses Mockito to test that the methodology used for uploading and retrieving flight data entries
-     * to and from the database works properly without an established database connection.
-     * */
-    @Test
-    public void verifyAddFlight() {
-
-        try {
-            String testID = "testID";
-            String testFlight = "testFlight";
-
-            Connection mockConnection = Mockito.mock(Connection.class);
-            Statement mockStatement = Mockito.mock(Statement.class);
-            PreparedStatement mockPStatement = Mockito.mock(PreparedStatement.class);
-            ResultSet mockResultSet = Mockito.mock(ResultSet.class);
-
-            when(mockResultSet.next()).thenReturn(true).thenReturn(true).thenReturn(false);
-            when(mockResultSet.getString(1)).thenReturn(testID);
-
-            when(mockConnection.prepareStatement(any(String.class))).thenReturn(mockPStatement);
-            when(mockConnection.createStatement()).thenReturn(mockStatement);
-            when(mockStatement.executeQuery("select id from flight where flightname = 'testFlight'")).thenReturn(mockResultSet);
-
-            mockPStatement = mockConnection.prepareStatement("insert into flight(id,flightname,source,depart,date,deptime,arrtime,flightcharge)values(?,?,?,?,?,?,?,?)");
-
-            mockPStatement.setString(1, testID);
-            mockPStatement.setString(2, testFlight);
-            mockPStatement.setString(3, "testSource");
-            mockPStatement.setString(4, "testDepart");
-            mockPStatement.setString(5, "testDate");
-            mockPStatement.setString(6, "testDeptime");
-            mockPStatement.setString(7, "testArrtime");
-            mockPStatement.setString(8, "testFlightCharge");
-
-            mockPStatement.executeUpdate();
-
-            mockStatement = mockConnection.createStatement();
-            ResultSet rs = mockStatement.executeQuery("select id from flight where flightname = '"+testFlight+"'");
-            rs.next();
-            String foundId = rs.getString(1);
-            //System.out.println(foundId);
-            Assert.assertEquals("testID", foundId); // Compares flight id before and after adding flight to the database
-            // Assert.assertEquals(id, "negative"); // Always results in comparison failure - used for testing
-        } catch (SQLException ex) {
-            ex.printStackTrace();
-        } catch (Exception cf) {
-            cf.printStackTrace();
-        }
-        return;
-    }
-
-    /*
-     * This test is similar to verifyAddFlight however it uses an active database connection to ensure that the entire
-     * process works properly.
+     * This test ensures that the active database connection works properly and can be used to add flight data.
      * */
     @Test
     public void jButton1ActionPerformed() {
         Connection con = null;
         PreparedStatement pst;
 
-        addflight addflightTest;
-        JLabel flightIDTest;
-        JTextField flightNameTest;
+        addflight addflightTest = new addflight();
+        JLabel flightIDTest = (JLabel) TestUtils.getChildNamed(addflightTest, "txtflightid");
+        JTextField flightNameTest = (JTextField) TestUtils.getChildNamed(addflightTest, "txtflightname");
+        JComboBox flightSourceTest = (JComboBox) TestUtils.getChildNamed(addflightTest, "txtsource");
+        JComboBox flightDepartTest = (JComboBox) TestUtils.getChildNamed(addflightTest, "txtdepart");
+        JTextField flightDepTimeTest = (JTextField) TestUtils.getChildNamed(addflightTest, "txtdtime");
+        JTextField flightArrTimeTest = (JTextField) TestUtils.getChildNamed(addflightTest, "txtarrtime");
+        JTextField flightChargeTest = (JTextField) TestUtils.getChildNamed(addflightTest, "txtflightcharge");
 
-        addflightTest = new addflight();
 
-        flightIDTest = (JLabel) TestUtils.getChildNamed(addflightTest, "txtflightid");
-        flightNameTest = (JTextField) TestUtils.getChildNamed(addflightTest, "txtflightname");
         flightIDTest.setText("testID");
         flightNameTest.setText("testFlightName");
+        flightSourceTest.getEditor().setItem("testSource");
+        flightDepartTest.getEditor().setItem("testDepart");
+        flightDepTimeTest.setText("testDepTime");
+        flightArrTimeTest.setText("testArrTime");
+        flightChargeTest.setText("testFlightCharge");
 
-        String idInsert = flightIDTest.getText();
-        String flightNameInsert = flightNameTest.getText();
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             con = DriverManager.getConnection("jdbc:mysql://localhost/airline","root","");
+            pst = con.prepareStatement("DELETE FROM flight WHERE id='testID'");
+            pst.executeUpdate();
             pst = con.prepareStatement("insert into flight(id,flightname,source,depart,date,deptime,arrtime,flightcharge)values(?,?,?,?,?,?,?,?)");
 
-            pst.setString(1, idInsert);
-            pst.setString(2, flightNameInsert);
-            pst.setString(3, "testSource");
-            pst.setString(4, "testDepart");
+            pst.setString(1, flightIDTest.getText());
+            pst.setString(2, flightNameTest.getText());
+            pst.setString(3, (String)flightSourceTest.getEditor().getItem());
+            pst.setString(4, (String)flightDepartTest.getEditor().getItem());
             pst.setString(5, "testDate");
-            pst.setString(6, "testDeptime");
-            pst.setString(7, "testArrtime");
-            pst.setString(8, "testFlightCharge");
+            pst.setString(6, flightDepTimeTest.getText());
+            pst.setString(7, flightArrTimeTest.getText());
+            pst.setString(8, flightChargeTest.getText());
 
             pst.executeUpdate();
         } catch (ClassNotFoundException ex) {
@@ -116,20 +70,19 @@ public class addflightTest {
 
         try {
             Statement testStmt = con.createStatement();
-            ResultSet rs = testStmt.executeQuery("select id from flight where flightname = 'testFlightName'");
+            ResultSet rs = testStmt.executeQuery("select * from flight where flightname = 'testFlightName'");
             rs.next();
-            String foundId = rs.getString(1);
-            //System.out.println(foundId);
-            //System.out.println(idInsert);
-            Assert.assertEquals("testID", foundId);
-            // Compares flight id before and after adding flight to the database
-            // Assert.assertEquals(id, "negative"); // Always results in comparison failure - used for testing
+            String compare[] = {"testID","testFlightName","testSource","testDepart","testDate","testDepTime","testArrTime","testFlightCharge"};
+            for (int i=1;i<=8;i++) {
+                //System.out.println(compare[i-1]);
+                //System.out.println(rs.getString(i));
+                Assert.assertEquals(compare[i-1], rs.getString(i));
+            }
+
             pst = con.prepareStatement("DELETE FROM flight WHERE id='testID'");
             pst.executeUpdate();
         } catch (SQLException ex) {
             ex.printStackTrace();
         }
-
     }
-
 }

@@ -27,6 +27,12 @@ public class addflight extends javax.swing.JInternalFrame {
         autoID();
         txtflightid.setName("txtflightid");
         txtflightname.setName("txtflightname");
+        txtsource.setName("txtsource");
+        txtdepart.setName("txtdepart");
+        txtdate.setName("txtdate");
+        txtdtime.setName("txtdtime");
+        txtarrtime.setName("txtarrtime");
+        txtflightcharge.setName("txtflightcharge");
     }
     
      Connection con;

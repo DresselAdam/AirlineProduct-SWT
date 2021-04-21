@@ -40,6 +40,13 @@ public class addCustomer extends javax.swing.JInternalFrame {
     public addCustomer() {
         initComponents();
         autoID();
+        txtid.setName("txtid");
+        txtfirstname.setName("txtfirstname");
+        txtlastname.setName("txtlastname");
+        txtnic.setName("txtnic");
+        txtpassport.setName("txtpassport");
+        txtaddress.setName("txtaddress");
+        txtcontact.setName("txtcontact");
     }
     
    Connection con;
