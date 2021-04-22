@@ -17,7 +17,6 @@ class ticketreportTest {
         assertDoesNotThrow(() -> tr.LoadData());
     }
 
-
     @Test
     void successCancel() {
         ticketreport tr = new ticketreport();
