@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf0d773b-a613-4c5a-9018-e3fb8da7ac09" name="Default Changelist" comment="Tecket">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="bf0d773b-a613-4c5a-9018-e3fb8da7ac09" name="Default Changelist" comment="Ticket">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AirlineProduct-SWT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AirlineProduct-SWT.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/UnitTest/ticketreportTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/UnitTest/ticketreportTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -335,7 +333,7 @@
       <workItem from="1619033654896" duration="461000" />
       <workItem from="1619034218061" duration="5380000" />
       <workItem from="1619039664358" duration="1379000" />
-      <workItem from="1619049473335" duration="2368000" />
+      <workItem from="1619049473335" duration="3216000" />
     </task>
     <task id="LOCAL-00001" summary="LoginTest 2 was made pog">
       <created>1615271445925</created>
@@ -435,7 +433,21 @@
       <option name="project" value="LOCAL" />
       <updated>1619051734794</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Tecket">
+      <created>1619051974777</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1619051974777</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Ticket Report Test Created">
+      <created>1619052044296</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1619052044296</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,7 +479,9 @@
     <MESSAGE value="UserCreationTest unit test created" />
     <MESSAGE value="UserCreationTest unit test edited" />
     <MESSAGE value="TicketReportTest created" />
-    <option name="LAST_COMMIT_MESSAGE" value="TicketReportTest created" />
+    <MESSAGE value="Tecket" />
+    <MESSAGE value="Ticket Report Test Created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ticket Report Test Created" />
   </component>
   <component name="WindowStateProjectService">
     <state x="631" y="80" key="#IntegrationTest" />
