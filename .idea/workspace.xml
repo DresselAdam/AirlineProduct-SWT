@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="bf0d773b-a613-4c5a-9018-e3fb8da7ac09" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/IntegrationTest/updateCustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/IntegrationTest/updateCustomerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/IntegrationTest/userCreationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/IntegrationTest/userCreationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/UnitTest/UserCreationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/UnitTest/UserCreationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ticketreport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ticketreport.java" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,6 +134,18 @@
       <recent name="C:\Users\Armeg\OneDrive - Florida Gulf Coast University\IDEAprojects\AirlineProduct-SWT\src\com" />
       <recent name="C:\Users\Armeg\OneDrive - Florida Gulf Coast University\IDEAprojects\AirlineProduct-SWT\Dependancies" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="JUnit.userCreationTest">
     <configuration name="All in AirlineProduct-SWT" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
@@ -324,11 +334,11 @@
       <item itemvalue="JUnit.IntegrationTest in AirlineProduct-SWT" />
       <item itemvalue="JUnit.UnitTest in AirlineProduct-SWT" />
       <item itemvalue="JUnit.addCustomerTest" />
-      <item itemvalue="TestNG.&lt;default&gt;" />
-      <item itemvalue="TestNG.IntegrationTest" />
       <item itemvalue="JUnit.updateCustomerTest" />
       <item itemvalue="JUnit.userCreationTest" />
       <item itemvalue="JUnit.userCreationTest.jButton1ActionPerformed" />
+      <item itemvalue="TestNG.&lt;default&gt;" />
+      <item itemvalue="TestNG.IntegrationTest" />
     </list>
     <recent_temporary>
       <list>
@@ -340,7 +350,17 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -372,6 +392,7 @@
       <workItem from="1619049473335" duration="3216000" />
       <workItem from="1619103713375" duration="4584000" />
       <workItem from="1619133634730" duration="5948000" />
+      <workItem from="1619147474433" duration="372000" />
     </task>
     <task id="LOCAL-00001" summary="LoginTest 2 was made pog">
       <created>1615271445925</created>
@@ -616,56 +637,56 @@
     <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1619103768157" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$updateCustomerTest.exec" NAME="updateCustomerTest Coverage Results" MODIFIED="1618942094259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/AirlineProduct_SWT$addCustomerTest.exec" NAME="addCustomerTest Coverage Results" MODIFIED="1619103902681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$userCreationTest_jButton1ActionPerformed.ic" NAME="userCreationTest.jButton1ActionPerformed Coverage Results" MODIFIED="1619139744112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>IntegrationTest.*</FILTER>
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$UserCreationTest_validAutoIDTest.ic" NAME="UserCreationTest.validAutoIDTest Coverage Results" MODIFIED="1619036924366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>UnitTest.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$addflightTest_verifyNewFlight.ic" NAME="addflightTest.verifyNewFlight Coverage Results" MODIFIED="1618893954922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$addflightTest_jButton1ActionPerformed.ic" NAME="addflightTest.jButton1ActionPerformed Coverage Results" MODIFIED="1618978169471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/AirlineProduct_SWT$LoginTest_jButton1ActionPerformed.ic" NAME="LoginTest.jButton1ActionPerformed Coverage Results" MODIFIED="1617669403264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$addflightTest_verifyAddFlight.ic" NAME="addflightTest.verifyAddFlight Coverage Results" MODIFIED="1618942807827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$addCustomerTest_jButton1ActionPerformed.ic" NAME="addCustomerTest.jButton1ActionPerformed Coverage Results" MODIFIED="1618979892472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$addCustomerTest.ic" NAME="addCustomerTest Coverage Results" MODIFIED="1619103884703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
     <SUITE FILE_PATH="coverage/AirlineProduct_SWT$All_in_AirlineProduct_SWT.exec" NAME="All in AirlineProduct-SWT Coverage Results" MODIFIED="1619133982105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$All_in_AirlineProduct_SWT.ic" NAME="All in AirlineProduct-SWT Coverage Results" MODIFIED="1619134195404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$addflightTest.ic" NAME="addflightTest Coverage Results" MODIFIED="1618978223840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$LoginTest.ic" NAME="LoginTest Coverage Results" MODIFIED="1618974579406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$UserCreationTest.ic" NAME="UserCreationTest Coverage Results" MODIFIED="1619037082719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
-      <FILTER>UnitTest.UserCreationTest</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/AirlineProduct_SWT$IntegrationTest_in_AirlineProduct_SWT.ic" NAME="IntegrationTest in AirlineProduct-SWT Coverage Results" MODIFIED="1619134647160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$addflightTest_verifyNewFlight__1_.ic" NAME="addflightTest.verifyNewFlight (1) Coverage Results" MODIFIED="1618894475902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$LoginTestTwo.ic" NAME="LoginTestTwo Coverage Results" MODIFIED="1619033798628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>IntegrationTest.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$UnitTest_in_AirlineProduct_SWT.ic" NAME="UnitTest in AirlineProduct-SWT Coverage Results" MODIFIED="1619134435929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$UnitTest_in_AirlineProduct_SWT__2_.ic" NAME="UnitTest in AirlineProduct-SWT (2) Coverage Results" MODIFIED="1619031641017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$searchCustomerTest_jButton4ActionPerformed.ic" NAME="searchCustomerTest.jButton4ActionPerformed Coverage Results" MODIFIED="1618942760480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$UnitTestSuite.ic" NAME="UnitTestSuite Coverage Results" MODIFIED="1619030322292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$updateCustomerTest_jButton4ActionPerformed.ic" NAME="updateCustomerTest.jButton4ActionPerformed Coverage Results" MODIFIED="1618978893120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$updateCustomerTest.ic" NAME="updateCustomerTest Coverage Results" MODIFIED="1619135528718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
     <SUITE FILE_PATH="coverage/AirlineProduct_SWT$com_in_AirlineProduct_SWT.ic" NAME="com in AirlineProduct-SWT Coverage Results" MODIFIED="1619031888482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$UnitTest_in_AirlineProduct_SWT__1_.ic" NAME="UnitTest in AirlineProduct-SWT (1) Coverage Results" MODIFIED="1619031405520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$addflightTestTwo.ic" NAME="addflightTestTwo Coverage Results" MODIFIED="1619028432264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$addCustomerTest.ic" NAME="addCustomerTest Coverage Results" MODIFIED="1619103884703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$IntegrationTest_in_AirlineProduct_SWT__1_.ic" NAME="IntegrationTest in AirlineProduct-SWT (1) Coverage Results" MODIFIED="1619033533854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>IntegrationTest.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$LoginTestTwo_jButton1ActionPerformed.ic" NAME="LoginTestTwo.jButton1ActionPerformed Coverage Results" MODIFIED="1618942782306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$LoginTest__1_.ic" NAME="LoginTest (1) Coverage Results" MODIFIED="1615271694126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/AirlineProduct_SWT$userCreationTest.ic" NAME="userCreationTest Coverage Results" MODIFIED="1619139759362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$UserCreationTest_validAutoIDTest.ic" NAME="UserCreationTest.validAutoIDTest Coverage Results" MODIFIED="1619036924366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>UnitTest.*</FILTER>
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$LoginTestTwo.ic" NAME="LoginTestTwo Coverage Results" MODIFIED="1619033798628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>IntegrationTest.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/AirlineProduct_SWT$IntegrationTest.ic" NAME="IntegrationTest Coverage Results" MODIFIED="1619041000580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
       <FILTER>IntegrationTest.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$addflightTestTwo.ic" NAME="addflightTestTwo Coverage Results" MODIFIED="1619028432264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$addflightTest.ic" NAME="addflightTest Coverage Results" MODIFIED="1618978223840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$LoginTestTwo_jButton1ActionPerformed.ic" NAME="LoginTestTwo.jButton1ActionPerformed Coverage Results" MODIFIED="1618942782306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$userCreationTest_jButton1ActionPerformed.ic" NAME="userCreationTest.jButton1ActionPerformed Coverage Results" MODIFIED="1619139744112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>IntegrationTest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$All_in_AirlineProduct_SWT.ic" NAME="All in AirlineProduct-SWT Coverage Results" MODIFIED="1619134195404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$addflightTest_jButton1ActionPerformed.ic" NAME="addflightTest.jButton1ActionPerformed Coverage Results" MODIFIED="1618978169471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$UnitTestSuite.ic" NAME="UnitTestSuite Coverage Results" MODIFIED="1619030322292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$IntegrationTest_in_AirlineProduct_SWT__1_.ic" NAME="IntegrationTest in AirlineProduct-SWT (1) Coverage Results" MODIFIED="1619033533854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>IntegrationTest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$addflightTest_verifyNewFlight__1_.ic" NAME="addflightTest.verifyNewFlight (1) Coverage Results" MODIFIED="1618894475902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$UnitTest_in_AirlineProduct_SWT__2_.ic" NAME="UnitTest in AirlineProduct-SWT (2) Coverage Results" MODIFIED="1619031641017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$addflightTest_verifyNewFlight.ic" NAME="addflightTest.verifyNewFlight Coverage Results" MODIFIED="1618893954922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$LoginTest.ic" NAME="LoginTest Coverage Results" MODIFIED="1618974579406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$updateCustomerTest.exec" NAME="updateCustomerTest Coverage Results" MODIFIED="1618942094259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$addflightTest_verifyAddFlight.ic" NAME="addflightTest.verifyAddFlight Coverage Results" MODIFIED="1618942807827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/AirlineProduct_SWT$UnitTest.ic" NAME="UnitTest Coverage Results" MODIFIED="1619033566525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>UnitTest.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$searchCustomerTest__1_.ic" NAME="searchCustomerTest (1) Coverage Results" MODIFIED="1619030911478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/AirlineProduct_SWT$searchCustomerTest.ic" NAME="searchCustomerTest Coverage Results" MODIFIED="1619028700210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$addCustomerTest_jButton1ActionPerformed.ic" NAME="addCustomerTest.jButton1ActionPerformed Coverage Results" MODIFIED="1618979892472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$searchCustomerTest__1_.ic" NAME="searchCustomerTest (1) Coverage Results" MODIFIED="1619030911478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$UserCreationTest.ic" NAME="UserCreationTest Coverage Results" MODIFIED="1619037082719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>UnitTest.UserCreationTest</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$UnitTest_in_AirlineProduct_SWT.ic" NAME="UnitTest in AirlineProduct-SWT Coverage Results" MODIFIED="1619134435929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$UnitTest_in_AirlineProduct_SWT__1_.ic" NAME="UnitTest in AirlineProduct-SWT (1) Coverage Results" MODIFIED="1619031405520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$updateCustomerTest.ic" NAME="updateCustomerTest Coverage Results" MODIFIED="1619135528718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$searchCustomerTest_jButton4ActionPerformed.ic" NAME="searchCustomerTest.jButton4ActionPerformed Coverage Results" MODIFIED="1618942760480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$updateCustomerTest_jButton4ActionPerformed.ic" NAME="updateCustomerTest.jButton4ActionPerformed Coverage Results" MODIFIED="1618978893120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AirlineProduct_SWT$LoginTest__1_.ic" NAME="LoginTest (1) Coverage Results" MODIFIED="1615271694126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

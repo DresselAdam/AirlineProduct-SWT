@@ -29,6 +29,9 @@ public class UserCreationTest {
     add.cancelButtonActionPerformed(new ActionEvent(this, ActionEvent.ACTION_PERFORMED, ""));
   }
 
+  /*
+   * Test valid user intput with a connection to the database
+   * */
   @Test
   public void validUserTest() {
     // Sample inputs
@@ -42,6 +45,9 @@ public class UserCreationTest {
     assertEquals("true", output);
   }
 
+  /*
+   * Test valid user intput without a connection to the database
+   * */
   @Test
   public void invalidUserTest() {
     // Sample inputs
@@ -55,6 +61,9 @@ public class UserCreationTest {
     assertEquals("error", output);
   }
 
+  /*
+   * Test the auto creation of an ID from a user User with an empty ID
+   * */
   @Test
   public void emptyAutoIDTest() {
 
@@ -63,6 +72,9 @@ public class UserCreationTest {
 
   }
 
+  /*
+   * Test the auto creation of an ID
+   * */
   @Test
   public void validAutoIDTest() {
 
@@ -71,6 +83,9 @@ public class UserCreationTest {
     assertTrue(id.length() == 5);
   }
 
+  /*
+   * Test the wrong creation of a User ID
+   * */
   @Test
   public void invalidAutoIDTest() {
 
