@@ -22,7 +22,8 @@ public class ticketreport extends javax.swing.JInternalFrame {
 
   Connection con;
   PreparedStatement pst;
-  // Variables declaration - do not modify//GEN-BEGIN:variables
+  // Variables declaration - do not modify
+  // GEN-BEGIN:variables
   private javax.swing.JButton jButton1;
   private javax.swing.JScrollPane jScrollPane1;
   private javax.swing.JTable jTable1;

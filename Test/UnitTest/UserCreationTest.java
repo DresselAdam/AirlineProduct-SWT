@@ -25,7 +25,6 @@ public class UserCreationTest {
 
   @Test
   public void userButtonTest() {
-
     add.addButtonActionPerformed(new ActionEvent(this, ActionEvent.ACTION_PERFORMED, ""));
     add.cancelButtonActionPerformed(new ActionEvent(this, ActionEvent.ACTION_PERFORMED, ""));
   }
@@ -59,7 +58,7 @@ public class UserCreationTest {
   @Test
   public void emptyAutoIDTest() {
 
-    String id = add.autoID("com.mysql.jdbc.Driver", true);
+    String id = add.autoID("com.mysql.cj.jdbc.Driver", true);
     assertEquals("UO001", id);
 
   }
@@ -67,7 +66,7 @@ public class UserCreationTest {
   @Test
   public void validAutoIDTest() {
 
-    String id = add.autoID("com.mysql.jdbc.Driver", false);
+    String id = add.autoID("com.mysql.cj.jdbc.Driver", false);
     assertTrue(id.substring(0,2).equals("UO"));
     assertTrue(id.length() == 5);
   }
@@ -93,7 +92,7 @@ public class UserCreationTest {
     PreparedStatement pst;
     String idOne = "UO006";
 
-    Class.forName("com.mysql.jdbc.Driver");
+    Class.forName("com.mysql.cj.jdbc.Driver");
     con = DriverManager.getConnection("jdbc:mysql://localhost/airline", "root", "");
     pst = con.prepareStatement("DELETE FROM user WHERE id = ?");
 

@@ -32,7 +32,7 @@ public class updateCustomerTest {
         Connection con;
         PreparedStatement pst;
 
-        searchCustomer updateCustomerTest = new searchCustomer();;
+        searchCustomer updateCustomerTest = new searchCustomer();
         JTextField customerIDTest = (JTextField) TestUtils
             .getChildNamed(updateCustomerTest, "txtcustid");
         JTextField customerFNameTest = (JTextField) TestUtils.getChildNamed(updateCustomerTest, "txtfirstname");

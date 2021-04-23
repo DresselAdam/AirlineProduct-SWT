@@ -2,6 +2,8 @@ package IntegrationTest;
 
 import com.TestUtils;
 import com.userCreation;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.testng.Assert;
 
@@ -17,17 +19,15 @@ public class userCreationTest {
      * */
     @Test
     public void jButton1ActionPerformed() {
-        Connection con = null;
+        Connection con;
         PreparedStatement pst;
 
         userCreation userCreationTest = new userCreation();
-        JLabel userIDTest = (JLabel) TestUtils.getChildNamed(userCreationTest, "txtuserid");
         JTextField userFNameTest = (JTextField) TestUtils.getChildNamed(userCreationTest, "txtfirstname");
         JTextField userLNameTest = (JTextField) TestUtils.getChildNamed(userCreationTest, "txtlastname");
         JTextField userUsernameTest = (JTextField) TestUtils.getChildNamed(userCreationTest, "txtusername");
         JTextField userPasswordTest = (JPasswordField) TestUtils.getChildNamed(userCreationTest, "txtpassword");
 
-        userIDTest.setText("testID");
         userFNameTest.setText("testFName");
         userLNameTest.setText("testLName");
         userUsernameTest.setText("testUsername");
@@ -38,18 +38,13 @@ public class userCreationTest {
             con = DriverManager.getConnection("jdbc:mysql://localhost/airline","root","");
             pst = con.prepareStatement("DELETE FROM user WHERE id='testID'");
             pst.executeUpdate();
-            pst = con.prepareStatement("insert into user(id,firstname,lastname,username,password)values(?,?,?,?,?)");
 
-            pst.setString(1, userIDTest.getText());
-            pst.setString(2, userFNameTest.getText());
-            pst.setString(3, userLNameTest.getText());
-            pst.setString(4, userUsernameTest.getText());
-            pst.setString(5, userPasswordTest.getText());
+            String output = userCreationTest.add(userFNameTest.getText(),userLNameTest.getText(),userUsernameTest.getText(),userPasswordTest.getText(),con,"com.mysql.jdbc.Driver");
+            Assert.assertEquals("true", output);
 
-            pst.executeUpdate();
-
+            JLabel testUserID = (JLabel) TestUtils.getChildNamed(userCreationTest, "txtuserid");
             pst = con.prepareStatement("select firstname,lastname,username,password from user where id = ?");
-            pst.setString(1, userIDTest.getText());
+            pst.setString(1, testUserID.getText());
             ResultSet rs = pst.executeQuery();
             rs.next();
 
@@ -69,4 +64,5 @@ public class userCreationTest {
             Logger.getLogger(userCreation.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
+
 }
