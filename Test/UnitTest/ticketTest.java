@@ -183,8 +183,8 @@ class ticketTest {
 
   @Test
   void flightDoesNotExistTest(){
-    String source = "China";
-    String depart = "China";
+    String source = "Uk";
+    String depart = "Uk";
 
     assertEquals("", ticket.searchForTickets(source, depart));
   }
