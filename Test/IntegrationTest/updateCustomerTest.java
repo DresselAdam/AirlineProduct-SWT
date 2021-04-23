@@ -24,8 +24,8 @@ public class updateCustomerTest {
     }
 
     /*
-     * This test checks that customer information can be edited/updated by a user by inserting a test dataset, editing
-     * this test dataset, then retrieving the data using the original ID to verify that the data was updated.
+     * This test checks that customer information can be edited/updated by a user by inserting a test dataset,
+     * updating this dataset, then retrieving the data using the original ID to verify that the data was updated.
      * */
     @Test
     public void jButton4ActionPerformed() {

@@ -12,7 +12,7 @@ import java.util.logging.Logger;
 
 public class userCreationTest {
     /*
-     * This test checks that new customer information can be added to the database by inserting mock information into
+     * This test checks that new user information can be added to the database by inserting mock information into
      * the database before selecting what should be the same set of data and comparing it to the original dataset.
      * */
     @Test

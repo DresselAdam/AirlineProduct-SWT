@@ -14,7 +14,8 @@ import org.testng.Assert;
 class searchCustomerTest {
 
   /*
-   * This test for the customer ID being correct and displaying the correct information.
+   * This test checks that a customer in the system (represented by a test dataset) can be searched for and
+   * selected using their unique customer ID.
    * */
   @Test
   public void jButton4ActionPerformed() {

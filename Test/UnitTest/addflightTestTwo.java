@@ -19,8 +19,8 @@ public class addflightTestTwo {
     }
 
     /*
-     * verifyAddFlight uses Mockito to test that the methodology used for uploading and retrieving flight data entries
-     * to and from the database works properly without an established database connection.
+     * verifyAddFlight uses Mockito to test that the methodology used for uploading and retrieving flight data
+     * entries to and from the database works properly without an established database connection.
      * */
     @Test
     public void verifyAddFlight() {
